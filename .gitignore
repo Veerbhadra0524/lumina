@@ -41,4 +41,5 @@ venv/
 # Cache
 .cache/
 
-data/"firebase-service-account.json" 
+firebase-service-account.json
+data/vector_store/
