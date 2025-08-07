@@ -1,26 +1,13 @@
-#!/usr/bin/env python3
-import torch
-import transformers
-import sentence_transformers
-import safetensors
+import logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-print("🔍 Testing PyTorch compatibility...")
-print(f"PyTorch version: {torch.__version__}")
-print(f"Transformers version: {transformers.__version__}")
-print(f"Sentence-transformers version: {sentence_transformers.__version__}")
-print(f"torch.uint64 available: {hasattr(torch, 'uint64')}")
+from modules.firebase_manager import FirebaseManager
 
-# Test embedding model loading
-try:
-    from sentence_transformers import SentenceTransformer
-    model = SentenceTransformer('all-MiniLM-L6-v2')
-    print("✅ Sentence transformer model loaded successfully")
-    
-    # Test embedding
-    embedding = model.encode("test sentence")
-    print(f"✅ Embedding created: shape {embedding.shape}")
-    
-except Exception as e:
-    print(f"❌ Error: {e}")
+print("Testing Firebase connection...")
+firebase = FirebaseManager()
 
-print("🎉 All compatibility tests passed!")
+if firebase.is_available():
+    print("SUCCESS: Firebase is working correctly!")
+else:
+    print("FAILED: Firebase connection failed")
+    print("Make sure firebase-service-account.json exists in project root")

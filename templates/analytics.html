@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 Analytics - Lumina RAG</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header glass">
+            <h1>📊 Analytics Dashboard</h1>
+            <div class="actions">
+                <a href="/" class="btn btn-secondary">🏠 Home</a>
+            </div>
+        </header>
+
+        <main class="analytics-container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>📄 Documents Processed</h3>
+                    <div class="stat-value" id="doc-count">-</div>
+                </div>
+                
+                <div class="stat-card">
+                    <h3>💬 Questions Asked</h3>
+                    <div class="stat-value" id="query-count">-</div>
+                </div>
+                
+                <div class="stat-card">
+                    <h3>👤 Active Since</h3>
+                    <div class="stat-value" id="member-since">-</div>
+                </div>
+                
+                <div class="stat-card admin-only" style="display:none;">
+                    <h3>🌍 Total Users</h3>
+                    <div class="stat-value" id="total-users">-</div>
+                </div>
+            </div>
+
+            <div class="charts-section">
+                <div class="chart-container">
+                    <h3>📈 Recent Activity</h3>
+                    <canvas id="activity-chart"></canvas>
+                </div>
+            </div>
+
+            <div class="recent-activity">
+                <h3>🕒 Recent Queries</h3>
+                <div id="recent-queries"></div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        async function loadAnalytics() {
+            try {
+                const response = await fetch('/analytics');
+                const data = await response.json();
+                
+                if (data.success) {
+                    const analytics = data.analytics;
+                    
+                    // Update stats
+                    document.getElementById('doc-count').textContent = analytics.document_count || 0;
+                    document.getElementById('query-count').textContent = analytics.query_count || 0;
+                    
+                    if (analytics.member_since) {
+                        const date = new Date(analytics.member_since).toLocaleDateString();
+                        document.getElementById('member-since').textContent = date;
+                    }
+                    
+                    // Show admin stats if admin
+                    if (data.is_admin) {
+                        document.querySelectorAll('.admin-only').forEach(el => {
+                            el.style.display = 'block';
+                        });
+                        document.getElementById('total-users').textContent = analytics.total_users || 0;
+                    }
+                    
+                    // Load recent queries
+                    if (analytics.recent_queries) {
+                        const queriesContainer = document.getElementById('recent-queries');
+                        queriesContainer.innerHTML = '';
+                        
+                        analytics.recent_queries.forEach(query => {
+                            const queryEl = document.createElement('div');
+                            queryEl.className = 'query-item';
+                            queryEl.innerHTML = `
+                                <p><strong>Query:</strong> ${query.query}</p>
+                                <small>Response length: ${query.response_length} chars | Sources: ${query.sources_count}</small>
+                            `;
+                            queriesContainer.appendChild(queryEl);
+                        });
+                    }
+                }
+            } catch (error) {
+                console.error('Failed to load analytics:', error);
+            }
+        }
+        
+        // Load analytics when page loads
+        document.addEventListener('DOMContentLoaded', loadAnalytics);
+    </script>
+</body>
+</html>

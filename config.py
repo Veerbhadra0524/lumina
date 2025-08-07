@@ -34,3 +34,11 @@ class Config:
     # Local model settings
     OLLAMA_BASE_URL = os.getenv('OLLAMA_BASE_URL', 'http://localhost:11434')
     LOCAL_MODEL_NAME = os.getenv('LOCAL_MODEL_NAME', 'llama3.2:3b')
+    MAX_WORKERS = int(os.getenv("MAX_WORKERS", 4))
+    
+
+
+    # Firebase Configuration
+    FIREBASE_PROJECT_ID = os.getenv('FIREBASE_PROJECT_ID', 'lumina-rag')
+    FIREBASE_SERVICE_ACCOUNT = os.getenv('FIREBASE_SERVICE_ACCOUNT', 'firebase-service-account.json')
+    ENABLE_FIREBASE_AUTH = os.getenv('ENABLE_FIREBASE_AUTH', 'True').lower() == 'true'

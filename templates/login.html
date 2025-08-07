@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔐 Login - Lumina RAG</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.2/firebase-ui-auth.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="header glass">
+            <h1>🔐 Login to Lumina RAG</h1>
+            <p class="subheading">Secure access to your document analysis</p>
+        </header>
+
+        <main class="login-container">
+            <div class="login-card glass">
+                <div id="firebaseui-auth-container"></div>
+                <div id="loader" style="display: none;">
+                    <p>🔄 Signing you in...</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Firebase configuration
+        const firebaseConfig = {
+            apiKey: "{{ config.FIREBASE_API_KEY }}",
+            authDomain: "{{ config.FIREBASE_AUTH_DOMAIN }}",
+            projectId: "{{ config.FIREBASE_PROJECT_ID }}",
+            storageBucket: "{{ config.FIREBASE_STORAGE_BUCKET }}",
+            messagingSenderId: "{{ config.FIREBASE_MESSAGING_SENDER_ID }}",
+            appId: "{{ config.FIREBASE_APP_ID }}"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        // FirebaseUI config
+        const uiConfig = {
+            signInSuccessUrl: '/',
+            signInOptions: [
+                firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+                firebase.auth.EmailAuthProvider.PROVIDER_ID,
+                firebase.auth.GithubAuthProvider.PROVIDER_ID
+            ],
+            tosUrl: '/terms',
+            privacyPolicyUrl: '/privacy',
+            callbacks: {
+                signInSuccessWithAuthResult: function(authResult, redirectUrl) {
+                    // Store token for API calls
+                    authResult.user.getIdToken().then(function(idToken) {
+                        localStorage.setItem('firebase_token', idToken);
+                        // Redirect to main app
+                        window.location.href = '/';
+                    });
+                    return false;
+                }
+            }
+        };
+
+        // Initialize the FirebaseUI Widget
+        const ui = new firebaseui.auth.AuthUI(firebase.auth());
+        ui.start('#firebaseui-auth-container', uiConfig);
+
+        // Check if already signed in
+        firebase.auth().onAuthStateChanged(function(user) {
+            if (user) {
+                // User is signed in, redirect to main app
+                user.getIdToken().then(function(idToken) {
+                    localStorage.setItem('firebase_token', idToken);
+                    window.location.href = '/';
+                });
+            }
+        });
+    </script>
+</body>
+</html>

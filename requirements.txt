@@ -63,3 +63,9 @@ flask-limiter==3.5.0
 # Performance profiling
 py-spy==0.3.14
 memory-profiler==0.61.0
+
+
+# Firebase Integration (NEW)
+firebase-admin==6.2.0
+google-cloud-firestore==2.11.1
+google-auth==2.22.0
