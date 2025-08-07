@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina RAG - Chat Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🔍 Lumina RAG</h1>
+            <p>Chat with your documents</p>
+            <div class="actions">
+                <a href="/upload" class="btn btn-secondary">📄 Upload Documents</a>
+                <button id="status-btn" class="btn btn-secondary">📊 Status</button>
+            </div>
+        </header>
+
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>👋 Welcome to Lumina RAG! Upload some documents and start asking questions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input-container">
+                <div class="input-group">
+                    <input type="text" id="query-input" placeholder="Ask a question about your documents..." autocomplete="off">
+                    <button id="send-btn" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="status-panel" class="status-panel hidden">
+            <h3>System Status</h3>
+            <div id="status-content">Loading...</div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+# Core Flask framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# Document processing and OCR
+PyMuPDF==1.23.8
+python-pptx==0.6.23
+Pillow==10.1.0
+pytesseract==0.3.10
+pdf2image==1.16.3
+
+# Computer Vision (Optional)
+opencv-python==4.8.1.78
+
+# Text processing and embeddings
+sentence-transformers==2.2.2
+transformers==4.35.2
+
+# Vector database
+faiss-cpu==1.7.4
+
+# Numerical computing (compatible versions)
+numpy==1.24.3
+pandas==2.1.4
+
+# HTTP requests for API calls
+requests==2.31.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Development and testing
+pytest==7.4.3
+pytest-flask==1.3.0
+
+# Production server
+gunicorn==21.2.0
+
+# Add Gemini API support
+google-generativeai==0.8.3

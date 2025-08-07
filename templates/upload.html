@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Documents - Lumina RAG</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>📄 Upload Documents</h1>
+            <p>Upload PDF, PowerPoint, or image files</p>
+            <a href="/" class="btn btn-secondary">← Back to Chat</a>
+        </header>
+
+        <div class="upload-container">
+            <div class="upload-area" id="upload-area">
+                <div class="upload-content">
+                    <div class="upload-icon">📁</div>
+                    <h3>Drag & Drop Files Here</h3>
+                    <p>Or click to select files</p>
+                    <p class="file-types">Supported: PDF, PPTX, PNG, JPG (Max 16MB)</p>
+                    <input type="file" id="file-input" multiple accept=".pdf,.pptx,.png,.jpg,.jpeg" style="display: none;">
+                    <button class="btn btn-primary" onclick="document.getElementById('file-input').click()">
+                        Select Files
+                    </button>
+                </div>
+            </div>
+
+            <div id="upload-queue" class="upload-queue"></div>
+        </div>
+    </div>
+
+    <script>
+        const uploadArea = document.getElementById('upload-area');
+        const fileInput = document.getElementById('file-input');
+        const uploadQueue = document.getElementById('upload-queue');
+
+        // Drag and drop handlers
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('drag-over');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('drag-over');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('drag-over');
+            const files = Array.from(e.dataTransfer.files);
+            handleFiles(files);
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            const files = Array.from(e.target.files);
+            handleFiles(files);
+        });
+
+        function handleFiles(files) {
+            files.forEach(file => uploadFile(file));
+        }
+
+        function uploadFile(file) {
+            const formData = new FormData();
+            formData.append('file', file);
+
+            const uploadItem = createUploadItem(file.name);
+            uploadQueue.appendChild(uploadItem);
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    updateUploadStatus(uploadItem, 'success', `✅ Processed ${data.text_blocks} text blocks`);
+                } else {
+                    updateUploadStatus(uploadItem, 'error', `❌ ${data.error}`);
+                }
+            })
+            .catch(error => {
+                updateUploadStatus(uploadItem, 'error', `❌ Upload failed: ${error.message}`);
+            });
+        }
+
+        function createUploadItem(filename) {
+            const item = document.createElement('div');
+            item.className = 'upload-item';
+            item.innerHTML = `
+                <div class="upload-filename">${filename}</div>
+                <div class="upload-status">📤 Uploading...</div>
+            `;
+            return item;
+        }
+
+        function updateUploadStatus(item, status, message) {
+            const statusEl = item.querySelector('.upload-status');
+            statusEl.textContent = message;
+            item.className = `upload-item ${status}`;
+        }
+    </script>
+</body>
+</html>

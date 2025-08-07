@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Uploaded Data or Extracted Files
+data/uploads/
+data/tmp/
+data/indexes/
+*.pdf
+*.png
+*.jpg
+
+# Virtual Environment
+lum_env/
+venv/
+.env/
+
+# PyInstaller
+*.spec
+
+# Cache
+.cache/

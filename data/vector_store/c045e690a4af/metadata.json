@@ -1,0 +1,2562 @@
+[
+  {
+    "page_number": 0,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      884,
+      586,
+      150,
+      17
+    ],
+    "block_index": 0,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "of the Machine",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 0
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      738,
+      586,
+      166,
+      17
+    ],
+    "block_index": 1,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "three courses of",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 1
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      87,
+      586,
+      947,
+      28
+    ],
+    "block_index": 2,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "the Machine Advanced",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 2
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      548,
+      797,
+      221,
+      21
+    ],
+    "block_index": 3,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "learning techniques to",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 3
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      88,
+      483,
+      1201,
+      57
+    ],
+    "block_index": 4,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "Professor, Supervised Machine",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 4
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      854,
+      736,
+      177,
+      22
+    ],
+    "block_index": 5,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "the best practices",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 5
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      396,
+      736,
+      671,
+      52
+    ],
+    "block_index": 6,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "for building machine",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 6
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      456,
+      796,
+      287,
+      22
+    ],
+    "block_index": 7,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "machine learning techniques",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 7
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      799,
+      586,
+      143,
+      17
+    ],
+    "block_index": 8,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "courses of the",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 8
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      827,
+      736,
+      108,
+      17
+    ],
+    "block_index": 9,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "of the best",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 9
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      396,
+      736,
+      671,
+      52
+    ],
+    "block_index": 10,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "practices for building",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 10
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      395,
+      796,
+      231,
+      22
+    ],
+    "block_index": 11,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "apply machine learning",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 11
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      894,
+      736,
+      173,
+      22
+    ],
+    "block_index": 12,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "best practices for",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 12
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      396,
+      429,
+      814,
+      46
+    ],
+    "block_index": 13,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "Founder, has successfully",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 13
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      562,
+      453,
+      215,
+      22
+    ],
+    "block_index": 14,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "completed the online,",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 14
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      88,
+      510,
+      1210,
+      30
+    ],
+    "block_index": 15,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "Stanford University Supervised",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 15
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      87,
+      602,
+      395,
+      37
+    ],
+    "block_index": 16,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "Learning Algorithms Learning",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 16
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      764,
+      616,
+      256,
+      22
+    ],
+    "block_index": 17,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "modern machine learning",
+    "added_at": "2025-08-07 11:39:23.453816",
+    "vector_id": 17
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      395,
+      646,
+      305,
+      22
+    ],
+    "block_index": 18,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "concepts, including supervised",
+    "added_at": "2025-08-07 11:39:23.454816",
+    "vector_id": 18
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      710,
+      646,
+      262,
+      22
+    ],
+    "block_index": 19,
+    "embedding_method": "local",
+    "upload_id": "ef4abe86",
+    "text": "learning (linear regression,",
+    "added_at": "2025-08-07 11:39:23.454816",
+    "vector_id": 19
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.97,
+    "bbox": [
+      596,
+      451,
+      143,
+      19
+    ],
+    "block_index": 0,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "used data mining",
+    "added_at": "2025-08-07 12:03:37.322136",
+    "vector_id": 20
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      397,
+      584,
+      176,
+      14
+    ],
+    "block_index": 1,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "validation dataset to",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 21
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      362,
+      946,
+      144,
+      14
+    ],
+    "block_index": 2,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "methods for data",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 22
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      487,
+      584,
+      149,
+      14
+    ],
+    "block_index": 3,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "dataset to decide",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 23
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      785,
+      861,
+      187,
+      18
+    ],
+    "block_index": 4,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "dramatically with the",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 24
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      899,
+      861,
+      188,
+      14
+    ],
+    "block_index": 5,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "with the introduction",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 25
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      903,
+      1289,
+      152,
+      18
+    ],
+    "block_index": 6,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the importance of",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 26
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      457,
+      606,
+      229,
+      18
+    ],
+    "block_index": 7,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "introduces frequently used",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 27
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      553,
+      606,
+      230,
+      18
+    ],
+    "block_index": 8,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "frequently used algorithms",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 28
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      745,
+      452,
+      197,
+      18
+    ],
+    "block_index": 9,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "method for establishing",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 29
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      481,
+      474,
+      150,
+      18
+    ],
+    "block_index": 10,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "or for developing",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 30
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      601,
+      518,
+      187,
+      18
+    ],
+    "block_index": 11,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "is non-parametric and",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 31
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      147,
+      540,
+      905,
+      40
+    ],
+    "block_index": 12,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "large enough, study",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 32
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      764,
+      562,
+      149,
+      18
+    ],
+    "block_index": 13,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "Using the training",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 33
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      894,
+      584,
+      158,
+      14
+    ],
+    "block_index": 14,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "needed to achieve",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 34
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      296,
+      606,
+      154,
+      18
+    ],
+    "block_index": 15,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "model. This paper",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 35
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      110,
+      861,
+      977,
+      33
+    ],
+    "block_index": 16,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the introduction Data",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 36
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      108,
+      924,
+      255,
+      14
+    ],
+    "block_index": 17,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "visualizations. First introduced",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 37
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      534,
+      926,
+      293,
+      19
+    ],
+    "block_index": 18,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "trees should probably",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 38
+  },
+  {
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      206,
+      968,
+      158,
+      18
+    ],
+    "block_index": 19,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "been widely used",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 39
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      955,
+      1180,
+      133,
+      18
+    ],
+    "block_index": 20,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "have the target",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 40
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      884,
+      1180,
+      145,
+      14
+    ],
+    "block_index": 21,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "records have the",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 41
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      757,
+      666,
+      129,
+      14
+    ],
+    "block_index": 22,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the model one",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 42
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      415,
+      988,
+      86,
+      14
+    ],
+    "block_index": 23,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "one of the",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 43
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      362,
+      302,
+      122,
+      14
+    ],
+    "block_index": 24,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "with the other",
+    "added_at": "2025-08-07 12:03:37.323139",
+    "vector_id": 44
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      244,
+      442,
+      131,
+      14
+    ],
+    "block_index": 25,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "of decision tree",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 45
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      500,
+      1092,
+      204,
+      20
+    ],
+    "block_index": 26,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "decisions The more",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 46
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      109,
+      1098,
+      155,
+      18
+    ],
+    "block_index": 27,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "represent the final",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 47
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      300,
+      346,
+      124,
+      18
+    ],
+    "block_index": 28,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "lots of missing",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 48
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      874,
+      1158,
+      146,
+      14
+    ],
+    "block_index": 29,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "make the records",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 49
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      849,
+      1158,
+      102,
+      14
+    ],
+    "block_index": 30,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "to make the",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 50
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      467,
+      170,
+      294,
+      21
+    ],
+    "block_index": 31,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "missing data target",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 51
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      181,
+      442,
+      153,
+      18
+    ],
+    "block_index": 32,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "usages of decision",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 52
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      244,
+      486,
+      107,
+      14
+    ],
+    "block_index": 33,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the result for",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 53
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      622,
+      666,
+      465,
+      40
+    ],
+    "block_index": 34,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the most important",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 54
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      716,
+      798,
+      122,
+      25
+    ],
+    "block_index": 35,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "with the target",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 55
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      207,
+      848,
+      150,
+      14
+    ],
+    "block_index": 36,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "branches and the",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 56
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      621,
+      996,
+      144,
+      14
+    ],
+    "block_index": 37,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "different levels of",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 57
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      706,
+      1114,
+      133,
+      18
+    ],
+    "block_index": 38,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "used to predict",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 58
+  },
+  {
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      662,
+      1158,
+      179,
+      18
+    ],
+    "block_index": 39,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "spreads wide enough",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 59
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.97,
+    "bbox": [
+      217,
+      485,
+      157,
+      18
+    ],
+    "block_index": 40,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "selecting the best",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 60
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      109,
+      213,
+      112,
+      18
+    ],
+    "block_index": 41,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "by setting the",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 61
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      825,
+      765,
+      142,
+      18
+    ],
+    "block_index": 42,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "four most widely",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 62
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      621,
+      861,
+      160,
+      18
+    ],
+    "block_index": 43,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "in widely available",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 63
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      310,
+      933,
+      153,
+      14
+    ],
+    "block_index": 44,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the final outcome",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 64
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      109,
+      639,
+      466,
+      36
+    ],
+    "block_index": 45,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "There are two",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 65
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      110,
+      983,
+      976,
+      34
+    ],
+    "block_index": 46,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "more identify the",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 66
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      684,
+      949,
+      147,
+      18
+    ],
+    "block_index": 47,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "parameters of the",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 67
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      110,
+      979,
+      465,
+      38
+    ],
+    "block_index": 48,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "to identify the",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 68
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      621,
+      839,
+      465,
+      40
+    ],
+    "block_index": 49,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "included in widely",
+    "added_at": "2025-08-07 12:03:37.324135",
+    "vector_id": 69
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      828,
+      927,
+      133,
+      18
+    ],
+    "block_index": 50,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "box requires the",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 70
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      302,
+      485,
+      174,
+      14
+    ],
+    "block_index": 51,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the best alternative",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 71
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      109,
+      1001,
+      977,
+      34
+    ],
+    "block_index": 52,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "boxes, one different",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 72
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      791,
+      765,
+      115,
+      14
+    ],
+    "block_index": 53,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the four most",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 73
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      193,
+      485,
+      137,
+      18
+    ],
+    "block_index": 54,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "of selecting the",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 74
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      197,
+      463,
+      151,
+      14
+    ],
+    "block_index": 55,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "occurrence of the",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 75
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      339,
+      485,
+      157,
+      14
+    ],
+    "block_index": 56,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "best alternative is",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 76
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      643,
+      625,
+      181,
+      18
+    ],
+    "block_index": 57,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "building decision tree",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 77
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      362,
+      867,
+      130,
+      18
+    ],
+    "block_index": 58,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "2. The sample",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 78
+  },
+  {
+    "page_number": 2,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      620,
+      1023,
+      91,
+      14
+    ],
+    "block_index": 59,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "for each of",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 79
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      622,
+      558,
+      465,
+      40
+    ],
+    "block_index": 60,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "By using this",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 80
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      622,
+      603,
+      215,
+      18
+    ],
+    "block_index": 61,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "identify the combinations",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 81
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      708,
+      67,
+      151,
+      15
+    ],
+    "block_index": 62,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "Shanghai Archives of",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 82
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      622,
+      584,
+      465,
+      37
+    ],
+    "block_index": 63,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "can identify the",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 83
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      863,
+      272,
+      78,
+      18
+    ],
+    "block_index": 64,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "a pool of",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 84
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      621,
+      317,
+      242,
+      18
+    ],
+    "block_index": 65,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "education, employment, life",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 85
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      732,
+      420,
+      156,
+      18
+    ],
+    "block_index": 66,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "leaf nodes through",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 86
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      549,
+      603,
+      169,
+      23
+    ],
+    "block_index": 67,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "are identify the",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 87
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      880,
+      272,
+      87,
+      18
+    ],
+    "block_index": 68,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "pool of 17",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 88
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      718,
+      317,
+      212,
+      18
+    ],
+    "block_index": 69,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "employment, life events,",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 89
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      939,
+      317,
+      110,
+      14
+    ],
+    "block_index": 70,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "and so forth.",
+    "added_at": "2025-08-07 12:03:37.325134",
+    "vector_id": 90
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      768,
+      420,
+      197,
+      18
+    ],
+    "block_index": 71,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "nodes through different",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 91
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      930,
+      603,
+      157,
+      14
+    ],
+    "block_index": 72,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "that constitute the",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 92
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      569,
+      733,
+      236,
+      19
+    ],
+    "block_index": 73,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "depressive disorder based",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 93
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      258,
+      757,
+      192,
+      19
+    ],
+    "block_index": 74,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "study (reprinted with",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 94
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      835,
+      182,
+      167,
+      14
+    ],
+    "block_index": 75,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "risk factors related",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 95
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      621,
+      317,
+      466,
+      37
+    ],
+    "block_index": 76,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "The decision tree",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 96
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      776,
+      397,
+      146,
+      14
+    ],
+    "block_index": 77,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "were divided into",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 97
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      857,
+      626,
+      172,
+      14
+    ],
+    "block_index": 78,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "condition of interest.",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 98
+  },
+  {
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      811,
+      227,
+      134,
+      18
+    ],
+    "block_index": 79,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the building of",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 99
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.97,
+    "bbox": [
+      168,
+      773,
+      187,
+      14
+    ],
+    "block_index": 80,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "selection of variables",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 100
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.97,
+    "bbox": [
+      854,
+      508,
+      151,
+      14
+    ],
+    "block_index": 81,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "for the selection",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 101
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      109,
+      253,
+      978,
+      27
+    ],
+    "block_index": 82,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "not been describe",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 102
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      885,
+      614,
+      203,
+      24
+    ],
+    "block_index": 83,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "should have different",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 103
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      131,
+      773,
+      140,
+      14
+    ],
+    "block_index": 84,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the selection of",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 104
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      278,
+      773,
+      199,
+      18
+    ],
+    "block_index": 85,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "variables that improve",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 105
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      879,
+      739,
+      149,
+      14
+    ],
+    "block_index": 86,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "of interest related",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 106
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      829,
+      845,
+      129,
+      18
+    ],
+    "block_index": 87,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "funding for the",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 107
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      790,
+      508,
+      126,
+      14
+    ],
+    "block_index": 88,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "allows for the",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 108
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      926,
+      508,
+      161,
+      18
+    ],
+    "block_index": 89,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "selection of input",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 109
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      931,
+      845,
+      157,
+      18
+    ],
+    "block_index": 90,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the preparation of",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 110
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      900,
+      845,
+      163,
+      18
+    ],
+    "block_index": 91,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "for the preparation",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 111
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      621,
+      252,
+      466,
+      36
+    ],
+    "block_index": 92,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "not been considered",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 112
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      747,
+      295,
+      144,
+      15
+    ],
+    "block_index": 93,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "models that use",
+    "added_at": "2025-08-07 12:03:37.326135",
+    "vector_id": 113
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      697,
+      401,
+      173,
+      15
+    ],
+    "block_index": 94,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "variables was based",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 114
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      108,
+      839,
+      468,
+      36
+    ],
+    "block_index": 95,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "results of these",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 115
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      938,
+      571,
+      149,
+      14
+    ],
+    "block_index": 96,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the decision tree",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 116
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      919,
+      592,
+      168,
+      14
+    ],
+    "block_index": 97,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "tree that identifies",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 117
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      147,
+      177,
+      183,
+      14
+    ],
+    "block_index": 98,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "decision tree method",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 118
+  },
+  {
+    "page_number": 4,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      863,
+      253,
+      143,
+      14
+    ],
+    "block_index": 99,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "models that have",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 119
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.97,
+    "bbox": [
+      1049,
+      1294,
+      40,
+      18
+    ],
+    "block_index": 100,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "early",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 120
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      324,
+      145,
+      157,
+      15
+    ],
+    "block_index": 101,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "Test of Independence.",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 121
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.965,
+    "bbox": [
+      279,
+      1294,
+      810,
+      42
+    ],
+    "block_index": 102,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "early depression.",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 122
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.965,
+    "bbox": [
+      1026,
+      1294,
+      63,
+      18
+    ],
+    "block_index": 103,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "of early",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 123
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      776,
+      784,
+      270,
+      15
+    ],
+    "block_index": 104,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "theoretical optimum combination.",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 124
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      740,
+      1150,
+      118,
+      18
+    ],
+    "block_index": 105,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the Division of",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 125
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      822,
+      1222,
+      167,
+      18
+    ],
+    "block_index": 106,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "China Association of",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 126
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      279,
+      1222,
+      809,
+      38
+    ],
+    "block_index": 107,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "of Biostatistics and",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 127
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      907,
+      1246,
+      145,
+      18
+    ],
+    "block_index": 108,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "with the Shanghai",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 128
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      786,
+      1294,
+      105,
+      18
+    ],
+    "block_index": 109,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "to search for",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 129
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      732,
+      1175,
+      135,
+      16
+    ],
+    "block_index": 110,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "of Medicine. She",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 130
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      279,
+      1175,
+      808,
+      40
+    ],
+    "block_index": 111,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "the data management",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 131
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      392,
+      1199,
+      179,
+      16
+    ],
+    "block_index": 112,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "and statistical analysis",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 132
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      334,
+      336,
+      199,
+      15
+    ],
+    "block_index": 113,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "technique for investigating",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 133
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      145,
+      438,
+      778,
+      32
+    ],
+    "block_index": 114,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "313-326 approach for",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 134
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      146,
+      671,
+      942,
+      26
+    ],
+    "block_index": 115,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "methods. Med USA:",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 135
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      874,
+      650,
+      141,
+      15
+    ],
+    "block_index": 116,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "algorithm for hip",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 136
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      772,
+      1150,
+      189,
+      18
+    ],
+    "block_index": 117,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "Division of Biostatistics,",
+    "added_at": "2025-08-07 12:03:37.327135",
+    "vector_id": 137
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      808,
+      1294,
+      114,
+      18
+    ],
+    "block_index": 118,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "search for the",
+    "added_at": "2025-08-07 12:03:37.328134",
+    "vector_id": 138
+  },
+  {
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      929,
+      1294,
+      160,
+      18
+    ],
+    "block_index": 119,
+    "embedding_method": "local",
+    "upload_id": "6dcaddf0",
+    "text": "biomarkers of early",
+    "added_at": "2025-08-07 12:03:37.328134",
+    "vector_id": 139
+  },
+  {
+    "page": -1,
+    "block": 0,
+    "upload_id": "98c1fc06",
+    "text": "of my knowledge",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 140
+  },
+  {
+    "page": -1,
+    "block": 1,
+    "upload_id": "98c1fc06",
+    "text": "in support of",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 141
+  },
+  {
+    "page": -1,
+    "block": 2,
+    "upload_id": "98c1fc06",
+    "text": "information given by",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 142
+  },
+  {
+    "page": -1,
+    "block": 3,
+    "upload_id": "98c1fc06",
+    "text": "Desired Month for",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 143
+  },
+  {
+    "page": -1,
+    "block": 4,
+    "upload_id": "98c1fc06",
+    "text": "to submit NOC",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 144
+  },
+  {
+    "page": -1,
+    "block": 5,
+    "upload_id": "98c1fc06",
+    "text": "and when asked",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 145
+  },
+  {
+    "page": -1,
+    "block": 6,
+    "upload_id": "98c1fc06",
+    "text": "declare that the",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 146
+  },
+  {
+    "page": -1,
+    "block": 7,
+    "upload_id": "98c1fc06",
+    "text": "me is true,",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 147
+  },
+  {
+    "page": -1,
+    "block": 8,
+    "upload_id": "98c1fc06",
+    "text": "correct and best",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 148
+  },
+  {
+    "page": -1,
+    "block": 9,
+    "upload_id": "98c1fc06",
+    "text": "and nothing has",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 149
+  },
+  {
+    "page": -1,
+    "block": 10,
+    "upload_id": "98c1fc06",
+    "text": "DIV Contents Proforma",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 150
+  },
+  {
+    "page": -1,
+    "block": 11,
+    "upload_id": "98c1fc06",
+    "text": "Technology Upload Resume",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 151
+  },
+  {
+    "page": -1,
+    "block": 12,
+    "upload_id": "98c1fc06",
+    "text": "(PDF File Less",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 152
+  },
+  {
+    "page": -1,
+    "block": 13,
+    "upload_id": "98c1fc06",
+    "text": "and other documents",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 153
+  },
+  {
+    "page": -1,
+    "block": 14,
+    "upload_id": "98c1fc06",
+    "text": "Month for Internship",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 154
+  },
+  {
+    "page": -1,
+    "block": 15,
+    "upload_id": "98c1fc06",
+    "text": "Resume (PDF File",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 155
+  },
+  {
+    "page": -1,
+    "block": 16,
+    "upload_id": "98c1fc06",
+    "text": "of Application for",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 156
+  },
+  {
+    "page": -1,
+    "block": 17,
+    "upload_id": "98c1fc06",
+    "text": "for Internship Science",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 157
+  },
+  {
+    "page": -1,
+    "block": 18,
+    "upload_id": "98c1fc06",
+    "text": "my application as",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 158
+  },
+  {
+    "page": -1,
+    "block": 19,
+    "upload_id": "98c1fc06",
+    "text": "Adarsh Kumar Verma",
+    "added_at": "2025-08-07 12:40:25.163752",
+    "vector_id": 159
+  },
+  {
+    "page": -1,
+    "block": 0,
+    "upload_id": "98c1fc06",
+    "text": "of my knowledge",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 160
+  },
+  {
+    "page": -1,
+    "block": 1,
+    "upload_id": "98c1fc06",
+    "text": "in support of",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 161
+  },
+  {
+    "page": -1,
+    "block": 2,
+    "upload_id": "98c1fc06",
+    "text": "information given by",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 162
+  },
+  {
+    "page": -1,
+    "block": 3,
+    "upload_id": "98c1fc06",
+    "text": "Desired Month for",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 163
+  },
+  {
+    "page": -1,
+    "block": 4,
+    "upload_id": "98c1fc06",
+    "text": "to submit NOC",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 164
+  },
+  {
+    "page": -1,
+    "block": 5,
+    "upload_id": "98c1fc06",
+    "text": "and when asked",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 165
+  },
+  {
+    "page": -1,
+    "block": 6,
+    "upload_id": "98c1fc06",
+    "text": "declare that the",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 166
+  },
+  {
+    "page": -1,
+    "block": 7,
+    "upload_id": "98c1fc06",
+    "text": "me is true,",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 167
+  },
+  {
+    "page": -1,
+    "block": 8,
+    "upload_id": "98c1fc06",
+    "text": "correct and best",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 168
+  },
+  {
+    "page": -1,
+    "block": 9,
+    "upload_id": "98c1fc06",
+    "text": "and nothing has",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 169
+  },
+  {
+    "page": -1,
+    "block": 10,
+    "upload_id": "98c1fc06",
+    "text": "DIV Contents Proforma",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 170
+  },
+  {
+    "page": -1,
+    "block": 11,
+    "upload_id": "98c1fc06",
+    "text": "Technology Upload Resume",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 171
+  },
+  {
+    "page": -1,
+    "block": 12,
+    "upload_id": "98c1fc06",
+    "text": "(PDF File Less",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 172
+  },
+  {
+    "page": -1,
+    "block": 13,
+    "upload_id": "98c1fc06",
+    "text": "and other documents",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 173
+  },
+  {
+    "page": -1,
+    "block": 14,
+    "upload_id": "98c1fc06",
+    "text": "Month for Internship",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 174
+  },
+  {
+    "page": -1,
+    "block": 15,
+    "upload_id": "98c1fc06",
+    "text": "Resume (PDF File",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 175
+  },
+  {
+    "page": -1,
+    "block": 16,
+    "upload_id": "98c1fc06",
+    "text": "of Application for",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 176
+  },
+  {
+    "page": -1,
+    "block": 17,
+    "upload_id": "98c1fc06",
+    "text": "for Internship Science",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 177
+  },
+  {
+    "page": -1,
+    "block": 18,
+    "upload_id": "98c1fc06",
+    "text": "my application as",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 178
+  },
+  {
+    "page": -1,
+    "block": 19,
+    "upload_id": "98c1fc06",
+    "text": "Adarsh Kumar Verma",
+    "added_at": "2025-08-07 12:40:25.175926",
+    "vector_id": 179
+  }
+]
