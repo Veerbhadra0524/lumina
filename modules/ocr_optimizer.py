@@ -9,22 +9,23 @@ class OCROptimizer:
     """Final OCR optimization for maximum accuracy"""
     
     @staticmethod
-    def enhance_image_for_ocr(image_path: str) -> dict:
-        """Apply final optimizations for maximum OCR accuracy"""
+    def enhance_image_for_ocr_direct(image: np.ndarray) -> dict:
+        """Apply optimizations directly to image array"""
         try:
-            # Load image
-            original = cv2.imread(image_path)
-            if original is None:
-                pil_img = Image.open(image_path)
-                original = cv2.cvtColor(np.array(pil_img), cv2.COLOR_RGB2BGR)
+            if image is None:
+                logger.error("Image is None in OCR optimizer")
+                return {}
             
             # Apply targeted enhancements
             enhanced_versions = {}
             
-            # Version 1: Ultra-sharp enhancement
-            gray = cv2.cvtColor(original, cv2.COLOR_BGR2GRAY)
+            # Convert to grayscale if needed
+            if len(image.shape) == 3:
+                gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+            else:
+                gray = image.copy()
             
-            # Sharpen specifically for text
+            # Version 1: Ultra-sharp enhancement
             kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
             sharpened = cv2.filter2D(gray, -1, kernel)
             
@@ -44,8 +45,9 @@ class OCROptimizer:
             morph = cv2.morphologyEx(enhanced, cv2.MORPH_CLOSE, kernel)
             enhanced_versions['morphological'] = cv2.cvtColor(morph, cv2.COLOR_GRAY2BGR)
             
+            logger.info(f"✅ OCR Optimizer created {len(enhanced_versions)} enhanced versions")
             return enhanced_versions
             
         except Exception as e:
             logger.error(f"Image enhancement failed: {e}")
-            return {'original': original}
+            return {}

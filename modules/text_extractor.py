@@ -176,24 +176,35 @@ class TextExtractor:
             return {'success': False, 'error': str(e)}
     
     def _create_focused_preprocessed_versions(self, image):
-        """Phase 2 Fix: Only the 3 most effective preprocessing methods"""
-        versions = {}
-        
+        """FIXED: Enhanced preprocessing with proper OCR optimizer integration"""
         try:
+            # Try OCR optimizer first
+            try:
+                from modules.ocr_optimizer import OCROptimizer
+                # FIXED: Pass the actual image, not None
+                enhanced_versions = OCROptimizer.enhance_image_for_ocr_direct(image)
+                if enhanced_versions and len(enhanced_versions) > 1:
+                    logger.info("✅ Using OCR optimizer enhanced versions")
+                    return enhanced_versions
+            except (ImportError, Exception) as e:
+                logger.debug(f"OCR optimizer not available: {e}")
+            
+            # Fallback to enhanced method
+            versions = {}
             gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
             
-            # Method 1: Enhanced contrast (most effective)
-            clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+            # Method 1: Enhanced contrast - IMPROVED
+            clahe = cv2.createCLAHE(clipLimit=2.5, tileGridSize=(8, 8))
             enhanced = clahe.apply(gray)
             versions['enhanced_contrast'] = cv2.cvtColor(enhanced, cv2.COLOR_GRAY2BGR)
             
-            # Method 2: Denoised version
-            denoised = cv2.bilateralFilter(gray, 9, 75, 75)
+            # Method 2: Denoised version - IMPROVED
+            denoised = cv2.fastNlMeansDenoising(gray, None, 10, 7, 21)
             versions['denoised'] = cv2.cvtColor(denoised, cv2.COLOR_GRAY2BGR)
             
-            # Method 3: Adaptive threshold for clear text
+            # Method 3: Adaptive threshold - OPTIMIZED
             adaptive_thresh = cv2.adaptiveThreshold(
-                enhanced, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2
+                enhanced, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 13, 3
             )
             versions['adaptive_thresh'] = cv2.cvtColor(adaptive_thresh, cv2.COLOR_GRAY2BGR)
             
@@ -204,7 +215,7 @@ class TextExtractor:
             return {'original': image}
     
     def _extract_confident_text_preserve_quality(self, ocr_data, method_name, config_name):
-        """Phase 2 Fix: Preserve original confidence without dilution"""
+        """FIXED: Single confidence boost logic"""
         text_blocks = []
         
         try:
@@ -234,12 +245,16 @@ class TextExtractor:
                             # Phase 2 Fix: Preserve original confidence without dilution
                             raw_confidence = sum(current_confidences) / len(current_confidences)
                             
-                            # Don't divide by 100 - keep higher confidence scores
+                            # FIXED: Single confidence calculation with boosting
                             final_confidence = min(0.95, raw_confidence / 100.0)
                             
-                            # Boost confidence for high-quality extractions
-                            if raw_confidence > 80:
-                                final_confidence = min(0.95, final_confidence * 1.2)
+                            # ENHANCED CONFIDENCE BOOSTING (Replaces old logic)
+                            if raw_confidence > 85:  # High quality text
+                                final_confidence = min(0.95, final_confidence * 1.3)  # 30% boost
+                            elif raw_confidence > 70:  # Good quality text
+                                final_confidence = min(0.90, final_confidence * 1.2)  # 20% boost
+                            elif raw_confidence > 50:  # Moderate quality
+                                final_confidence = min(0.85, final_confidence * 1.1)  # 10% boost
                             
                             text_blocks.append({
                                 'text': cleaned_text,
@@ -262,8 +277,13 @@ class TextExtractor:
                     raw_confidence = sum(current_confidences) / len(current_confidences) if current_confidences else 60
                     final_confidence = min(0.95, raw_confidence / 100.0)
                     
-                    if raw_confidence > 80:
-                        final_confidence = min(0.95, final_confidence * 1.2)
+                    # Apply same boosting logic
+                    if raw_confidence > 85:
+                        final_confidence = min(0.95, final_confidence * 1.3)
+                    elif raw_confidence > 70:
+                        final_confidence = min(0.90, final_confidence * 1.2)
+                    elif raw_confidence > 50:
+                        final_confidence = min(0.85, final_confidence * 1.1)
                     
                     text_blocks.append({
                         'text': cleaned_text,
