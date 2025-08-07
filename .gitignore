@@ -40,3 +40,5 @@ venv/
 
 # Cache
 .cache/
+
+data/
