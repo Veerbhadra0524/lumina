@@ -5,13 +5,12 @@ import numpy as np
 import logging
 from typing import Dict, Any, List, Optional, Tuple
 from datetime import datetime
-
 from config import Config
 
 logger = logging.getLogger(__name__)
 
 class VectorStore:
-    """Handles FAISS vector database operations"""
+    """Enhanced FAISS vector database operations"""
     
     def __init__(self, user_id: str = "default"):
         self.config = Config()
@@ -27,7 +26,6 @@ class VectorStore:
         self.index = None
         self.metadata = []
         self._initialize_index()
-
     
     def _initialize_index(self):
         """Initialize or load user-specific FAISS index"""
@@ -56,8 +54,6 @@ class VectorStore:
             # Prepare embeddings and metadata
             embeddings = []
             new_metadata = []
-            logger.debug(f"🔍 embedding_data sample: {embedding_data[0]}")
-
             
             for item in embedding_data:
                 embedding = np.array(item['embedding'], dtype=np.float32)
@@ -119,7 +115,7 @@ class VectorStore:
                 query_vector = query_vector / norm
             
             # Search
-            k = min(k, self.index.ntotal)  # Don't search for more than available
+            k = min(k, self.index.ntotal)
             distances, indices = self.index.search(query_vector, k)
             
             # Prepare results
@@ -127,7 +123,7 @@ class VectorStore:
             for i, (distance, idx) in enumerate(zip(distances[0], indices[0])):
                 if idx < len(self.metadata):
                     doc = self.metadata[idx].copy()
-                    doc['similarity_score'] = float(distance)  # Cosine similarity
+                    doc['similarity_score'] = float(distance)
                     doc['rank'] = i + 1
                     documents.append(doc)
             
@@ -170,7 +166,7 @@ class VectorStore:
             return {'error': str(e)}
     
     def clear_index(self) -> Dict[str, Any]:
-        """Clear the entire index (for testing/reset)"""
+        """Clear the entire index"""
         try:
             self.index = faiss.IndexFlatIP(self.config.EMBEDDING_DIMENSION)
             self.metadata = []

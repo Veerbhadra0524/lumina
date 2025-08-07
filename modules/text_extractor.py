@@ -4,22 +4,34 @@ from PIL import Image, ImageEnhance, ImageFilter
 import cv2
 import numpy as np
 import logging
-from typing import Dict, Any, List
 import json
 from datetime import datetime
-
+from typing import Dict, Any, List, Optional
+from sentence_transformers import SentenceTransformer
 from config import Config
 
 logger = logging.getLogger(__name__)
 
 class TextExtractor:
-    """Enhanced OCR with better preprocessing and error handling"""
+    """Enhanced OCR with semantic chunking and advanced preprocessing"""
     
     def __init__(self):
         self.config = Config()
+        # Phase 2: Semantic chunking
+        self.chunking_model = None
+        self._initialize_chunking_model()
+    
+    def _initialize_chunking_model(self):
+        """Initialize model for semantic chunking"""
+        try:
+            self.chunking_model = SentenceTransformer('all-MiniLM-L6-v2')
+            logger.info("✅ Semantic chunking model initialized")
+        except Exception as e:
+            logger.warning(f"Chunking model initialization failed: {str(e)}")
+            self.chunking_model = None
     
     def extract_text(self, upload_id: str) -> Dict[str, Any]:
-        """Extract text with enhanced OCR preprocessing"""
+        """Main extraction method (backward compatible)"""
         try:
             upload_dir = os.path.join(self.config.UPLOAD_FOLDER, upload_id)
             metadata_path = os.path.join(upload_dir, 'metadata.json')
@@ -42,11 +54,8 @@ class TextExtractor:
             for i, page in enumerate(pages):
                 logger.debug(f"Processing page {i}: {list(page.keys())}")
                 
-                # ✅ ROBUST: Handle different possible key names
+                # Handle different possible path keys
                 image_path = None
-                page_number = 0
-                
-                # Try different possible path keys
                 for path_key in ['path', 'image_path', 'file_path']:
                     if path_key in page:
                         image_path = page[path_key]
@@ -56,10 +65,8 @@ class TextExtractor:
                     logger.warning(f"⚠️ No path found in page {i}, skipping")
                     continue
                 
-                # Get page number from various possible keys
                 page_number = page.get('page_number', page.get('slide_number', i))
                 
-                # Verify image file exists
                 if not os.path.exists(image_path):
                     logger.warning(f"⚠️ Image file not found: {image_path}")
                     continue
@@ -75,12 +82,17 @@ class TextExtractor:
                 else:
                     logger.warning(f"⚠️ OCR failed for page {page_number}: {page_result.get('error', 'Unknown error')}")
             
+            # Phase 2: Apply semantic chunking
+            if self.chunking_model and text_blocks:
+                text_blocks = self._apply_semantic_chunking(text_blocks, upload_id)
+            
             # Save extracted text
             text_result = {
                 'upload_id': upload_id,
                 'extracted_at': str(datetime.now()),
                 'total_blocks': len(text_blocks),
-                'text_blocks': text_blocks
+                'text_blocks': text_blocks,
+                'semantic_chunking_applied': self.chunking_model is not None
             }
             
             result_path = os.path.join(upload_dir, 'extracted_text.json')
@@ -104,17 +116,15 @@ class TextExtractor:
         try:
             logger.debug(f"Loading image: {image_path}")
             
-            # Load image with error handling
             original_image = cv2.imread(image_path)
             if original_image is None:
-                # Try with PIL as fallback
                 try:
                     pil_img = Image.open(image_path)
                     original_image = cv2.cvtColor(np.array(pil_img), cv2.COLOR_RGB2BGR)
                 except Exception as e:
                     return {'success': False, 'error': f'Could not load image: {str(e)}'}
             
-            # Try multiple preprocessing approaches
+            # Create multiple preprocessed versions
             preprocessed_images = self._create_multiple_preprocessed_versions(original_image)
             
             all_results = []
@@ -167,36 +177,182 @@ class TextExtractor:
             logger.error(f"Enhanced OCR error: {str(e)}")
             return {'success': False, 'error': str(e)}
     
-    # ... [Keep all the other methods from your existing text_extractor.py] ...
-    # (The preprocessing methods, text cleaning, etc. are all fine)
+    def _apply_semantic_chunking(self, text_blocks: List[Dict[str, Any]], upload_id: str) -> List[Dict[str, Any]]:
+        """Phase 2: Apply semantic chunking to text blocks"""
+        try:
+            if not self.chunking_model or len(text_blocks) < 2:
+                return text_blocks
+            
+            logger.info(f"🧠 Applying semantic chunking to {len(text_blocks)} text blocks")
+            
+            # Group blocks by page for context
+            pages = {}
+            for block in text_blocks:
+                page_num = block.get('page_number', 0)
+                if page_num not in pages:
+                    pages[page_num] = []
+                pages[page_num].append(block)
+            
+            chunked_blocks = []
+            
+            # Process each page
+            for page_num, page_blocks in pages.items():
+                if len(page_blocks) <= 1:
+                    chunked_blocks.extend(page_blocks)
+                    continue
+                
+                page_chunks = self._create_semantic_chunks(page_blocks, page_num, upload_id)
+                chunked_blocks.extend(page_chunks)
+            
+            logger.info(f"✅ Semantic chunking: {len(text_blocks)} → {len(chunked_blocks)} chunks")
+            return chunked_blocks
+            
+        except Exception as e:
+            logger.error(f"Semantic chunking error: {str(e)}")
+            return text_blocks
     
+    def _create_semantic_chunks(self, blocks: List[Dict[str, Any]], page_num: int, upload_id: str) -> List[Dict[str, Any]]:
+        """Create semantically coherent chunks for a page"""
+        try:
+            if len(blocks) <= 1:
+                return blocks
+            
+            # Sort blocks by position if bbox is available
+            sorted_blocks = sorted(blocks, key=lambda x: (
+                x.get('bbox', [0, 0, 0, 0])[1],  # Y position
+                x.get('bbox', [0, 0, 0, 0])[0]   # X position
+            ))
+            
+            chunks = []
+            current_chunk_text = ""
+            current_chunk_blocks = []
+            
+            for i, block in enumerate(sorted_blocks):
+                block_text = block['text']
+                
+                # Check semantic similarity with current chunk
+                if current_chunk_text and len(current_chunk_text) > 50:
+                    similarity = self._calculate_semantic_similarity(current_chunk_text, block_text)
+                    
+                    # If similarity is low or chunk is getting too long, start new chunk
+                    if similarity < 0.4 or len(current_chunk_text) > 400:
+                        # Finalize current chunk
+                        if current_chunk_text.strip():
+                            chunk = self._create_chunk(
+                                current_chunk_text, 
+                                current_chunk_blocks, 
+                                page_num, 
+                                upload_id, 
+                                len(chunks)
+                            )
+                            chunks.append(chunk)
+                        
+                        # Start new chunk
+                        current_chunk_text = block_text
+                        current_chunk_blocks = [block]
+                    else:
+                        # Add to current chunk
+                        current_chunk_text += " " + block_text
+                        current_chunk_blocks.append(block)
+                else:
+                    # First block or very short current chunk
+                    if current_chunk_text:
+                        current_chunk_text += " " + block_text
+                    else:
+                        current_chunk_text = block_text
+                    current_chunk_blocks.append(block)
+            
+            # Add final chunk
+            if current_chunk_text.strip():
+                chunk = self._create_chunk(
+                    current_chunk_text, 
+                    current_chunk_blocks, 
+                    page_num, 
+                    upload_id, 
+                    len(chunks)
+                )
+                chunks.append(chunk)
+            
+            return chunks if chunks else blocks
+            
+        except Exception as e:
+            logger.error(f"Chunk creation error: {str(e)}")
+            return blocks
+    
+    def _calculate_semantic_similarity(self, text1: str, text2: str) -> float:
+        """Calculate semantic similarity between texts"""
+        try:
+            if not self.chunking_model:
+                return self._calculate_word_overlap(text1, text2)
+            
+            embeddings = self.chunking_model.encode([text1, text2])
+            similarity = np.dot(embeddings[0], embeddings[1]) / (
+                np.linalg.norm(embeddings[0]) * np.linalg.norm(embeddings[1])
+            )
+            return float(similarity)
+            
+        except Exception as e:
+            logger.debug(f"Semantic similarity calculation failed: {str(e)}")
+            return self._calculate_word_overlap(text1, text2)
+    
+    def _calculate_word_overlap(self, text1: str, text2: str) -> float:
+        """Fallback word overlap calculation"""
+        words1 = set(text1.lower().split())
+        words2 = set(text2.lower().split())
+        
+        if not words1 or not words2:
+            return 0.0
+        
+        intersection = words1.intersection(words2)
+        union = words1.union(words2)
+        
+        return len(intersection) / len(union)
+    
+    def _create_chunk(self, text: str, metadata_blocks: List[Dict], page_num: int, upload_id: str, chunk_id: int) -> Dict[str, Any]:
+        """Create a semantic chunk with combined metadata"""
+        # Calculate average confidence
+        confidences = [block.get('confidence', 0.5) for block in metadata_blocks]
+        avg_confidence = sum(confidences) / len(confidences) if confidences else 0.5
+        
+        # Merge bounding boxes
+        bboxes = [block.get('bbox', [0, 0, 0, 0]) for block in metadata_blocks if 'bbox' in block]
+        merged_bbox = self._merge_bounding_boxes(bboxes) if bboxes else [0, 0, 0, 0]
+        
+        return {
+            'text': text.strip(),
+            'page_number': page_num,
+            'confidence': avg_confidence,
+            'bbox': merged_bbox,
+            'upload_id': upload_id,
+            'chunk_id': chunk_id,
+            'chunk_type': 'semantic_boundary',
+            'source_blocks': len(metadata_blocks),
+            'method': 'semantic_chunking',
+            'engines_used': list(set(block.get('method', 'unknown') for block in metadata_blocks))
+        }
+    
+    # Keep all existing methods for backward compatibility
     def _create_multiple_preprocessed_versions(self, image):
         """Create multiple preprocessed versions of the image"""
         versions = {}
         
         try:
-            # Convert to grayscale
             gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
             
-            # Version 1: Basic grayscale
             versions['basic_gray'] = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)
             
-            # Version 2: Denoised
             denoised = cv2.bilateralFilter(gray, 9, 75, 75)
             versions['denoised'] = cv2.cvtColor(denoised, cv2.COLOR_GRAY2BGR)
             
-            # Version 3: Enhanced contrast
             clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
             enhanced = clahe.apply(gray)
             versions['enhanced_contrast'] = cv2.cvtColor(enhanced, cv2.COLOR_GRAY2BGR)
             
-            # Version 4: Adaptive threshold
             adaptive_thresh = cv2.adaptiveThreshold(
                 enhanced, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2
             )
             versions['adaptive_thresh'] = cv2.cvtColor(adaptive_thresh, cv2.COLOR_GRAY2BGR)
             
-            # Version 5: Otsu threshold
             _, otsu_thresh = cv2.threshold(enhanced, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
             versions['otsu_thresh'] = cv2.cvtColor(otsu_thresh, cv2.COLOR_GRAY2BGR)
             
@@ -204,7 +360,6 @@ class TextExtractor:
             
         except Exception as e:
             logger.error(f"Preprocessing failed: {e}")
-            # Return at least the original
             return {'original': image}
     
     def _extract_confident_text(self, ocr_data, method_name, config_name):
@@ -220,7 +375,7 @@ class TextExtractor:
                 text = ocr_data['text'][i].strip()
                 confidence = int(ocr_data['conf'][i])
                 
-                if text and confidence > 40:  # Higher threshold for quality
+                if text and confidence > 40:
                     current_text += text + " "
                     current_confidences.append(confidence)
                     current_boxes.append([
@@ -230,7 +385,6 @@ class TextExtractor:
                         ocr_data['height'][i]
                     ])
                     
-                    # Create block when we have substantial text
                     if len(current_text.split()) >= 3:
                         cleaned_text = self._clean_and_validate_text(current_text.strip())
                         
@@ -239,7 +393,7 @@ class TextExtractor:
                             
                             text_blocks.append({
                                 'text': cleaned_text,
-                                'confidence': avg_confidence / 100.0,  # Normalize to 0-1
+                                'confidence': avg_confidence / 100.0,
                                 'bbox': self._merge_bounding_boxes(current_boxes),
                                 'method': f"{method_name}_{config_name}",
                                 'word_count': len(cleaned_text.split()),
@@ -276,37 +430,34 @@ class TextExtractor:
         if not text:
             return ""
         
-        # Remove excessive whitespace
         import re
         text = re.sub(r'\s+', ' ', text)
         
         # Fix common OCR errors
         fixes = {
-            r'\b1(?=\s|[A-Z]|$)': 'I',  # Standalone 1 -> I
-            r'\b0(?=\s|[A-Z]|$)': 'O',  # Standalone 0 -> O
-            r'([a-z])\s+([a-z])(?=\s|$)': r'\1\2',  # Fix spaced letters in words
-            r'(\w)\s+(\.)': r'\1\2',  # Fix spaced punctuation
+            r'\b1(?=\s|[A-Z]|$)': 'I',
+            r'\b0(?=\s|[A-Z]|$)': 'O',
+            r'([a-z])\s+([a-z])(?=\s|$)': r'\1\2',
+            r'(\w)\s+(\.)': r'\1\2',
         }
         
         for pattern, replacement in fixes.items():
             text = re.sub(pattern, replacement, text)
         
-        # Remove very short "words" that are likely noise
         words = text.split()
         words = [word for word in words if len(word) > 1 or word.isdigit() or word.isalpha()]
         
         text = ' '.join(words).strip()
         
-        # Validate text quality
         if len(text) < 3:
             return ""
         
-        # Check if text has reasonable character distribution
+        # Check character distribution
         alpha_count = sum(c.isalpha() for c in text)
         total_chars = len(text.replace(' ', ''))
         
         if total_chars > 0 and alpha_count / total_chars < 0.3:
-            return ""  # Too many non-alphabetic characters
+            return ""
         
         return text
     
@@ -336,7 +487,7 @@ class TextExtractor:
         for block in all_results:
             text = block['text'].lower().strip()
             
-            # Skip if we've seen similar text (simple deduplication)
+            # Skip if we've seen similar text
             is_duplicate = False
             for used_text in used_texts:
                 if self._text_similarity(text, used_text) > 0.8:
@@ -348,7 +499,6 @@ class TextExtractor:
                 final_blocks.append(block)
                 used_texts.add(text)
         
-        # Limit to prevent overwhelming the system
         return final_blocks[:20]  # Top 20 blocks per page
     
     def _text_similarity(self, text1, text2):

@@ -2558,5 +2558,2668 @@
     "text": "Adarsh Kumar Verma",
     "added_at": "2025-08-07 12:40:25.175926",
     "vector_id": 179
+  },
+  {
+    "text": "of my knowledge",
+    "confidence": 0.9666666666666667,
+    "bbox": [
+      649,
+      809,
+      107,
+      13
+    ],
+    "method": "enhanced_contrast_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 15,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.723727",
+    "vector_id": 180
+  },
+  {
+    "text": "in support of",
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      843,
+      792,
+      83,
+      13
+    ],
+    "method": "enhanced_contrast_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 13,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.723727",
+    "vector_id": 181
+  },
+  {
+    "text": "information given by",
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      336,
+      809,
+      133,
+      13
+    ],
+    "method": "enhanced_contrast_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 20,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.723727",
+    "vector_id": 182
+  },
+  {
+    "text": "Desired Month for",
+    "confidence": 0.96,
+    "bbox": [
+      153,
+      587,
+      127,
+      11
+    ],
+    "method": "basic_gray_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 17,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.723727",
+    "vector_id": 183
+  },
+  {
+    "text": "to submit NOC",
+    "confidence": 0.96,
+    "bbox": [
+      192,
+      792,
+      95,
+      10
+    ],
+    "method": "basic_gray_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 13,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.723727",
+    "vector_id": 184
+  },
+  {
+    "text": "and when asked",
+    "confidence": 0.96,
+    "bbox": [
+      1044,
+      792,
+      100,
+      10
+    ],
+    "method": "basic_gray_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 14,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.723727",
+    "vector_id": 185
+  },
+  {
+    "text": "declare that the",
+    "confidence": 0.96,
+    "bbox": [
+      234,
+      809,
+      98,
+      10
+    ],
+    "method": "basic_gray_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 16,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.723727",
+    "vector_id": 186
+  },
+  {
+    "text": "me is true,",
+    "confidence": 0.96,
+    "bbox": [
+      473,
+      809,
+      66,
+      12
+    ],
+    "method": "basic_gray_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 11,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.723727",
+    "vector_id": 187
+  },
+  {
+    "text": "correct and best",
+    "confidence": 0.96,
+    "bbox": [
+      543,
+      809,
+      102,
+      10
+    ],
+    "method": "basic_gray_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 16,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.723727",
+    "vector_id": 188
+  },
+  {
+    "text": "and nothing has",
+    "confidence": 0.96,
+    "bbox": [
+      760,
+      809,
+      101,
+      13
+    ],
+    "method": "basic_gray_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 15,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.723727",
+    "vector_id": 189
+  },
+  {
+    "text": "DIV Contents Proforma",
+    "confidence": 0.96,
+    "bbox": [
+      308,
+      33,
+      438,
+      77
+    ],
+    "method": "basic_gray_--oem 3 --psm 4",
+    "word_count": 3,
+    "char_count": 21,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.723727",
+    "vector_id": 190
+  },
+  {
+    "text": "Technology Upload Resume",
+    "confidence": 0.96,
+    "bbox": [
+      103,
+      671,
+      571,
+      72
+    ],
+    "method": "basic_gray_--oem 3 --psm 4",
+    "word_count": 3,
+    "char_count": 24,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.723727",
+    "vector_id": 191
+  },
+  {
+    "text": "(PDF File Less",
+    "confidence": 0.96,
+    "bbox": [
+      217,
+      728,
+      100,
+      14
+    ],
+    "method": "basic_gray_--oem 3 --psm 4",
+    "word_count": 3,
+    "char_count": 14,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.724727",
+    "vector_id": 192
+  },
+  {
+    "text": "and other documents",
+    "confidence": 0.96,
+    "bbox": [
+      706,
+      792,
+      133,
+      10
+    ],
+    "method": "basic_gray_--oem 3 --psm 4",
+    "word_count": 3,
+    "char_count": 19,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.724727",
+    "vector_id": 193
+  },
+  {
+    "text": "Month for Internship",
+    "confidence": 0.96,
+    "bbox": [
+      210,
+      587,
+      147,
+      15
+    ],
+    "method": "basic_gray_--oem 3 --psm 3",
+    "word_count": 3,
+    "char_count": 20,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.724727",
+    "vector_id": 194
+  },
+  {
+    "text": "Resume (PDF File",
+    "confidence": 0.96,
+    "bbox": [
+      158,
+      728,
+      125,
+      14
+    ],
+    "method": "basic_gray_--oem 3 --psm 3",
+    "word_count": 3,
+    "char_count": 16,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.724727",
+    "vector_id": 195
+  },
+  {
+    "text": "of Application for",
+    "confidence": 0.96,
+    "bbox": [
+      392,
+      81,
+      146,
+      29
+    ],
+    "method": "denoised_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 18,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.724727",
+    "vector_id": 196
+  },
+  {
+    "text": "for Internship Science",
+    "confidence": 0.96,
+    "bbox": [
+      261,
+      587,
+      305,
+      95
+    ],
+    "method": "denoised_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 22,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.724727",
+    "vector_id": 197
+  },
+  {
+    "text": "my application as",
+    "confidence": 0.96,
+    "bbox": [
+      929,
+      792,
+      110,
+      13
+    ],
+    "method": "denoised_--oem 3 --psm 6",
+    "word_count": 3,
+    "char_count": 17,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.724727",
+    "vector_id": 198
+  },
+  {
+    "text": "Adarsh Kumar Verma",
+    "confidence": 0.96,
+    "bbox": [
+      393,
+      161,
+      139,
+      12
+    ],
+    "method": "denoised_--oem 3 --psm 3",
+    "word_count": 3,
+    "char_count": 18,
+    "page_number": 0,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "upload_id": "e5a47f63",
+    "added_at": "2025-08-07 13:38:10.724727",
+    "vector_id": 199
+  },
+  {
+    "text": "DIV Contents Proforma of Application for Adarsh Kumar Verma",
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      308,
+      33,
+      438,
+      140
+    ],
+    "upload_id": "89245037",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 4",
+      "denoised_--oem 3 --psm 3"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 13:55:28.045693",
+    "vector_id": 200
+  },
+  {
+    "text": "Desired Month for Month for Internship for Internship Science",
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      153,
+      587,
+      413,
+      95
+    ],
+    "upload_id": "89245037",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 3"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 13:55:28.045693",
+    "vector_id": 201
+  },
+  {
+    "text": "Technology Upload Resume Resume (PDF File (PDF File Less",
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      103,
+      671,
+      571,
+      72
+    ],
+    "upload_id": "89245037",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 3",
+      "basic_gray_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 13:55:28.045693",
+    "vector_id": 202
+  },
+  {
+    "text": "to submit NOC and other documents in support of my application as",
+    "page_number": 0,
+    "confidence": 0.9608333333333333,
+    "bbox": [
+      192,
+      792,
+      847,
+      13
+    ],
+    "upload_id": "89245037",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "enhanced_contrast_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 13:55:28.045693",
+    "vector_id": 203
+  },
+  {
+    "text": "and when asked declare that the information given by",
+    "page_number": 0,
+    "confidence": 0.9611111111111111,
+    "bbox": [
+      234,
+      792,
+      910,
+      30
+    ],
+    "upload_id": "89245037",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "enhanced_contrast_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 13:55:28.045693",
+    "vector_id": 204
+  },
+  {
+    "text": "me is true, correct and best of my knowledge and nothing has",
+    "page_number": 0,
+    "confidence": 0.9616666666666667,
+    "bbox": [
+      473,
+      809,
+      388,
+      13
+    ],
+    "upload_id": "89245037",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "enhanced_contrast_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 13:55:28.045693",
+    "vector_id": 205
+  },
+  {
+    "text": "DIV Contents Proforma of Application for Adarsh Kumar Verma",
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      308,
+      33,
+      438,
+      140
+    ],
+    "upload_id": "f80c1f30",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 4",
+      "denoised_--oem 3 --psm 3"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:04:46.401548",
+    "vector_id": 206
+  },
+  {
+    "text": "Desired Month for Month for Internship for Internship Science",
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      153,
+      587,
+      413,
+      95
+    ],
+    "upload_id": "f80c1f30",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 3"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:04:46.401548",
+    "vector_id": 207
+  },
+  {
+    "text": "Technology Upload Resume Resume (PDF File (PDF File Less",
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      103,
+      671,
+      571,
+      72
+    ],
+    "upload_id": "f80c1f30",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 3",
+      "basic_gray_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:04:46.401548",
+    "vector_id": 208
+  },
+  {
+    "text": "to submit NOC and other documents in support of my application as",
+    "page_number": 0,
+    "confidence": 0.9608333333333333,
+    "bbox": [
+      192,
+      792,
+      847,
+      13
+    ],
+    "upload_id": "f80c1f30",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "enhanced_contrast_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:04:46.401548",
+    "vector_id": 209
+  },
+  {
+    "text": "and when asked declare that the information given by",
+    "page_number": 0,
+    "confidence": 0.9611111111111111,
+    "bbox": [
+      234,
+      792,
+      910,
+      30
+    ],
+    "upload_id": "f80c1f30",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "enhanced_contrast_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:04:46.401548",
+    "vector_id": 210
+  },
+  {
+    "text": "me is true, correct and best of my knowledge and nothing has",
+    "page_number": 0,
+    "confidence": 0.9616666666666667,
+    "bbox": [
+      473,
+      809,
+      388,
+      13
+    ],
+    "upload_id": "f80c1f30",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "enhanced_contrast_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:04:46.401548",
+    "vector_id": 211
+  },
+  {
+    "text": "DIV Contents Proforma of Application for Adarsh Kumar Verma",
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      308,
+      33,
+      438,
+      140
+    ],
+    "upload_id": "fabda965",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 3",
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:12:48.544134",
+    "vector_id": 212
+  },
+  {
+    "text": "Desired Month for Month for Internship for Internship Science",
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      153,
+      587,
+      413,
+      95
+    ],
+    "upload_id": "fabda965",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 3",
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:12:48.544134",
+    "vector_id": 213
+  },
+  {
+    "text": "Technology Upload Resume Resume (PDF File (PDF File Less",
+    "page_number": 0,
+    "confidence": 0.96,
+    "bbox": [
+      103,
+      671,
+      571,
+      72
+    ],
+    "upload_id": "fabda965",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 3",
+      "basic_gray_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:12:48.544134",
+    "vector_id": 214
+  },
+  {
+    "text": "to submit NOC and other documents in support of my application as",
+    "page_number": 0,
+    "confidence": 0.9608333333333333,
+    "bbox": [
+      192,
+      792,
+      847,
+      13
+    ],
+    "upload_id": "fabda965",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:12:48.544134",
+    "vector_id": 215
+  },
+  {
+    "text": "and when asked declare that the information given by",
+    "page_number": 0,
+    "confidence": 0.9611111111111111,
+    "bbox": [
+      234,
+      792,
+      910,
+      30
+    ],
+    "upload_id": "fabda965",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:12:48.544134",
+    "vector_id": 216
+  },
+  {
+    "text": "me is true, correct and best of my knowledge and nothing has",
+    "page_number": 0,
+    "confidence": 0.9616666666666667,
+    "bbox": [
+      473,
+      809,
+      388,
+      13
+    ],
+    "upload_id": "fabda965",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:12:48.544134",
+    "vector_id": 217
+  },
+  {
+    "text": "Multimodal RAG System Architecture _— =] Architecture Text Encoding Architecture Text Architecture",
+    "page_number": 0,
+    "confidence": 0.9,
+    "bbox": [
+      342,
+      50,
+      933,
+      395
+    ],
+    "upload_id": "8d75334a",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 5,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "enhanced_contrast_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 4",
+      "adaptive_thresh_--oem 3 --psm 3",
+      "basic_gray_--oem 3 --psm 6",
+      "adaptive_thresh_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:13:18.718766",
+    "vector_id": 218
+  },
+  {
+    "text": "Encoding Input Files Retrieval GeneraWeb Retrieval GeneraWeb Interface Interface Encoding GeneraWeb Interface Image",
+    "page_number": 0,
+    "confidence": 0.9286666666666668,
+    "bbox": [
+      139,
+      272,
+      1323,
+      423
+    ],
+    "upload_id": "8d75334a",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 5,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "otsu_thresh_--oem 3 --psm 4",
+      "denoised_--oem 3 --psm 6",
+      "otsu_thresh_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:13:18.718766",
+    "vector_id": 219
+  },
+  {
+    "text": "Input Files OCR OCR Processing Vector Processing Vector Store",
+    "page_number": 0,
+    "confidence": 0.9233333333333332,
+    "bbox": [
+      139,
+      375,
+      674,
+      21
+    ],
+    "upload_id": "8d75334a",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "otsu_thresh_--oem 3 --psm 4",
+      "denoised_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:13:18.718766",
+    "vector_id": 220
+  },
+  {
+    "text": "Store Query Process Query Process Retrieval Image Encoding Encoding",
+    "page_number": 0,
+    "confidence": 0.9541666666666666,
+    "bbox": [
+      527,
+      375,
+      646,
+      208
+    ],
+    "upload_id": "8d75334a",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 4",
+      "denoised_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:13:18.718766",
+    "vector_id": 221
+  },
+  {
+    "text": "content properly, but Writer, and then properly formatted and",
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      249,
+      273,
+      483,
+      177
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.195856",
+    "vector_id": 222
+  },
+  {
+    "text": "pathophysiology of Burn. patient with 40% of patient with",
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      138,
+      619,
+      906,
+      79
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.195856",
+    "vector_id": 223
+  },
+  {
+    "text": "skin caused by following the injury. hours to days depth, size (total",
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      316,
+      713,
+      555,
+      115
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "adaptive_thresh_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.195856",
+    "vector_id": 224
+  },
+  {
+    "text": "of Burn: The local and systemic heat source, experiencing to direct thermal",
+    "page_number": 0,
+    "confidence": 0.965,
+    "bbox": [
+      137,
+      839,
+      849,
+      142
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6",
+      "otsu_thresh_--oem 3 --psm 6",
+      "adaptive_thresh_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.195856",
+    "vector_id": 225
+  },
+  {
+    "text": "of Stasis (Middle): and cellular damage, increased blood flow",
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      211,
+      996,
+      662,
+      143
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.195856",
+    "vector_id": 226
+  },
+  {
+    "text": "leads to widespread Depletion: Despite the same, the circulating",
+    "page_number": 0,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      137,
+      1280,
+      914,
+      179
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.195856",
+    "vector_id": 227
+  },
+  {
+    "text": "Response Syndrome (SIRS): For burns exceeding of inflammatory cells systemic inflammatory response",
+    "page_number": 1,
+    "confidence": 0.9616666666666667,
+    "bbox": [
+      138,
+      67,
+      820,
+      84
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.195856",
+    "vector_id": 228
+  },
+  {
+    "text": "is triggered. This involves widespread activation cytokines, leading to:",
+    "page_number": 1,
+    "confidence": 0.9622222222222222,
+    "bbox": [
+      460,
+      100,
+      472,
+      52
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.195856",
+    "vector_id": 229
+  },
+  {
+    "text": "to acute kidney increased risk of This state can leading cause of",
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      181,
+      257,
+      820,
+      305
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 230
+  },
+  {
+    "text": "formula for calculating patients with second-degree",
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      395,
+      625,
+      543,
+      52
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 2,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "otsu_thresh_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 231
+  },
+  {
+    "text": "crystalloid of choice it must be must be constantly",
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      619,
+      776,
+      229,
+      328
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "adaptive_thresh_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 232
+  },
+  {
+    "text": "be constantly titrated burning process (remove (intubation may be",
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      324,
+      1085,
+      685,
+      323
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 233
+  },
+  {
+    "text": "To prevent constriction",
+    "page_number": 1,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      430,
+      1483,
+      224,
+      20
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 6,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 1,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 234
+  },
+  {
+    "text": "diagnosis of breast of breast cancer. clinical manifestations of",
+    "page_number": 2,
+    "confidence": 0.9655555555555555,
+    "bbox": [
+      138,
+      913,
+      803,
+      79
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 3",
+      "basic_gray_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 235
+  },
+  {
+    "text": "Mention the pathophysiology the pathophysiology and",
+    "page_number": 2,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      542,
+      944,
+      326,
+      20
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 2,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 236
+  },
+  {
+    "text": "breast cancer. (5 Write the medical, female is the is the most",
+    "page_number": 2,
+    "confidence": 0.9641666666666666,
+    "bbox": [
+      282,
+      975,
+      467,
+      174
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 3",
+      "basic_gray_--oem 3 --psm 6",
+      "adaptive_thresh_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 237
+  },
+  {
+    "text": "also get breast get breast cancer first-degree relative (mother,",
+    "page_number": 2,
+    "confidence": 0.9655555555555555,
+    "bbox": [
+      230,
+      1133,
+      766,
+      146
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "adaptive_thresh_--oem 3 --psm 3",
+      "adaptive_thresh_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 238
+  },
+  {
+    "text": "relative (mother, sister, daughter) with breast breast cancer, especially breast cancer in",
+    "page_number": 2,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      354,
+      1259,
+      620,
+      48
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 3",
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 239
+  },
+  {
+    "text": "and often more Dense Breast Tissue: increased fat tissue fat tissue leads",
+    "page_number": 2,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      138,
+      1354,
+      899,
+      142
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 3",
+      "basic_gray_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 240
+  },
+  {
+    "text": "Increased risk with diet high in saturated fat and processed foods may",
+    "page_number": 3,
+    "confidence": 0.96,
+    "bbox": [
+      577,
+      68,
+      502,
+      53
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 241
+  },
+  {
+    "text": "in risk, which clinical manifestations of manifestations of breast",
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      388,
+      163,
+      427,
+      142
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "adaptive_thresh_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6",
+      "otsu_thresh_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 242
+  },
+  {
+    "text": "and division, forming growth controls, proliferate through the duct",
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      137,
+      415,
+      923,
+      336
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "otsu_thresh_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 243
+  },
+  {
+    "text": "spread into surrounding the formation of formation of new",
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      138,
+      761,
+      874,
+      79
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "adaptive_thresh_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 244
+  },
+  {
+    "text": "(angiogenesis) to supply the primary tumor and spread to",
+    "page_number": 3,
+    "confidence": 0.9655555555555555,
+    "bbox": [
+      139,
+      856,
+      753,
+      51
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 245
+  },
+  {
+    "text": "distant spread is classified by their positive. This classification",
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      440,
+      950,
+      410,
+      115
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 246
+  },
+  {
+    "text": "disease of the",
+    "page_number": 3,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      841,
+      1296,
+      146,
+      14
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 6,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 1,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "adaptive_thresh_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 247
+  },
+  {
+    "text": "and nursing management of breast cancer: cancer is individualized",
+    "page_number": 4,
+    "confidence": 0.96,
+    "bbox": [
+      344,
+      68,
+      441,
+      48
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 248
+  },
+  {
+    "text": "based on stage, age, and overall health. It typically",
+    "page_number": 4,
+    "confidence": 0.9622222222222222,
+    "bbox": [
+      301,
+      101,
+      459,
+      51
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "adaptive_thresh_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 249
+  },
+  {
+    "text": "involvesa combination to kill cancer cells throughout the",
+    "page_number": 4,
+    "confidence": 0.96,
+    "bbox": [
+      526,
+      131,
+      366,
+      115
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.196857",
+    "vector_id": 250
+  },
+  {
+    "text": "body. Can be target specific characteristics fight cancer. (Less of the tumor",
+    "page_number": 4,
+    "confidence": 0.96,
+    "bbox": [
+      568,
+      228,
+      460,
+      297
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 251
+  },
+  {
+    "text": "the entire breast. breast tissue, nipple, removed but most",
+    "page_number": 4,
+    "confidence": 0.96,
+    "bbox": [
+      505,
+      537,
+      405,
+      90
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 252
+  },
+  {
+    "text": "of the skin content reformatted with reformatted with clear",
+    "page_number": 4,
+    "confidence": 0.9633333333333334,
+    "bbox": [
+      353,
+      613,
+      654,
+      650
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "enhanced_contrast_--oem 3 --psm 3",
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 253
+  },
+  {
+    "text": "clear structure, appropriate",
+    "page_number": 4,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      604,
+      1247,
+      284,
+      20
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 6,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 1,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "enhanced_contrast_--oem 3 --psm 3"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 254
+  },
+  {
+    "text": "MEDICAL UNIVERSITY, B.Sc. 2025 Subject: Adult Nursing Fourth Semester",
+    "page_number": 5,
+    "confidence": 0.96,
+    "bbox": [
+      137,
+      70,
+      879,
+      161
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 255
+  },
+  {
+    "text": "in sequence. Draw Draw neat labelled chemicals, friction, or",
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      416,
+      358,
+      622,
+      350
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 4",
+      "denoised_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 256
+  },
+  {
+    "text": "or radiation. Burns in the hours immediate cell death cell death (coagulation",
+    "page_number": 5,
+    "confidence": 0.965,
+    "bbox": [
+      137,
+      692,
+      943,
+      84
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "enhanced_contrast_--oem 3 --psm 4",
+      "otsu_thresh_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 257
+  },
+  {
+    "text": "the hours to to days following the injury. The injury. The severity",
+    "page_number": 5,
+    "confidence": 0.9641666666666666,
+    "bbox": [
+      137,
+      747,
+      490,
+      29
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "adaptive_thresh_--oem 3 --psm 6",
+      "otsu_thresh_--oem 3 --psm 6",
+      "otsu_thresh_--oem 3 --psm 4",
+      "basic_gray_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 258
+  },
+  {
+    "text": "depth, the size its depth, the Enlist and explain contact area with",
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      168,
+      751,
+      889,
+      320
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 259
+  },
+  {
+    "text": "release of vasoactive of vasoactive mediators",
+    "page_number": 5,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      306,
+      1349,
+      325,
+      16
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 2,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "adaptive_thresh_--oem 3 --psm 6",
+      "adaptive_thresh_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 260
+  },
+  {
+    "text": "thickening due to plasma fluid loss. Systemic Inflammatory Response of inflammatory cells inflammatory cells and",
+    "page_number": 6,
+    "confidence": 0.9606666666666666,
+    "bbox": [
+      176,
+      110,
+      701,
+      147
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 5,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "adaptive_thresh_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 261
+  },
+  {
+    "text": "Renal: Decreased perfusion, risk of acute gastric dilation, stress",
+    "page_number": 6,
+    "confidence": 0.9622222222222222,
+    "bbox": [
+      255,
+      362,
+      406,
+      63
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 262
+  },
+  {
+    "text": "protein catabolism and Explain the formulae for fluid calculation.",
+    "page_number": 6,
+    "confidence": 0.96,
+    "bbox": [
+      166,
+      446,
+      751,
+      162
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 263
+  },
+  {
+    "text": "Formula) is commonly used for fluid resuscitation in burns Formula: Total fluid",
+    "page_number": 6,
+    "confidence": 0.96,
+    "bbox": [
+      176,
+      635,
+      838,
+      127
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 264
+  },
+  {
+    "text": "body weight (kg) First half in patient with clean, with clean, dry",
+    "page_number": 6,
+    "confidence": 0.9616666666666667,
+    "bbox": [
+      216,
+      748,
+      586,
+      767
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 265
+  },
+  {
+    "text": "dry sheets.",
+    "page_number": 6,
+    "confidence": 0.965,
+    "bbox": [
+      466,
+      1495,
+      107,
+      21
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 1,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "adaptive_thresh_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 266
+  },
+  {
+    "text": "Continuous pain management (monitor urine output) and nasogastric tube",
+    "page_number": 7,
+    "confidence": 0.96,
+    "bbox": [
+      216,
+      278,
+      632,
+      105
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 267
+  },
+  {
+    "text": "(for large burns). needed. 3. Acute Phase (After initial",
+    "page_number": 7,
+    "confidence": 0.96,
+    "bbox": [
+      152,
+      362,
+      866,
+      102
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 268
+  },
+  {
+    "text": "needed for deep (high protein and management; early physical",
+    "page_number": 7,
+    "confidence": 0.96,
+    "bbox": [
+      377,
+      572,
+      359,
+      105
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 269
+  },
+  {
+    "text": "early physical and and occupational therapy. (pressure garments, massage).",
+    "page_number": 7,
+    "confidence": 0.9611111111111111,
+    "bbox": [
+      403,
+      656,
+      518,
+      105
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "otsu_thresh_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.197856",
+    "vector_id": 270
+  },
+  {
+    "text": "May 9 has admitted witha a diagnosis of (5 marks) Causes",
+    "page_number": 7,
+    "confidence": 0.9608333333333333,
+    "bbox": [
+      137,
+      982,
+      699,
+      130
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "adaptive_thresh_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 271
+  },
+  {
+    "text": "List the causes and risk factors of breast cancer. Family history (early-onset",
+    "page_number": 7,
+    "confidence": 0.9608333333333333,
+    "bbox": [
+      166,
+      1047,
+      557,
+      331
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 272
+  },
+  {
+    "text": "exposure (especially childhood) Obesity (especially postmenopausal)",
+    "page_number": 8,
+    "confidence": 0.96,
+    "bbox": [
+      215,
+      152,
+      430,
+      104
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 2,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 273
+  },
+  {
+    "text": "(5 marks) Pathophysiology: Mention the pathophysiology and clinical manifestations",
+    "page_number": 8,
+    "confidence": 0.96,
+    "bbox": [
+      137,
+      595,
+      912,
+      106
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 274
+  },
+  {
+    "text": "of breast cancer. epithelial cells of Caused by genetic oncogenes or tumor",
+    "page_number": 8,
+    "confidence": 0.9608333333333333,
+    "bbox": [
+      177,
+      596,
+      841,
+      200
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 275
+  },
+  {
+    "text": "cells multiply unchecked, Abnormal cells multiply ductal carcinoma (IDC):",
+    "page_number": 8,
+    "confidence": 0.96,
+    "bbox": [
+      176,
+      817,
+      368,
+      152
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 276
+  },
+  {
+    "text": "Tumors grow, invade, invade, and metastasize and metastasize via",
+    "page_number": 8,
+    "confidence": 0.96,
+    "bbox": [
+      176,
+      1027,
+      410,
+      21
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 277
+  },
+  {
+    "text": "lymph or blood. hormone receptor (ER, (hard, irregular, immobile).",
+    "page_number": 8,
+    "confidence": 0.96,
+    "bbox": [
+      309,
+      1028,
+      436,
+      156
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 278
+  },
+  {
+    "text": "Bone pain, weight loss, jaundice.",
+    "page_number": 8,
+    "confidence": 0.96,
+    "bbox": [
+      393,
+      1415,
+      316,
+      21
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 6,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 2,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 279
+  },
+  {
+    "text": "breast cancer. (5 medical, surgical, and marks) Medical Management:",
+    "page_number": 9,
+    "confidence": 0.96,
+    "bbox": [
+      137,
+      70,
+      867,
+      106
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 280
+  },
+  {
+    "text": "(for select cases). dissection. Nursing Management:",
+    "page_number": 9,
+    "confidence": 0.96,
+    "bbox": [
+      138,
+      449,
+      678,
+      284
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 2,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 281
+  },
+  {
+    "text": "Assessment: Physical, psychological, educational needs. Education:",
+    "page_number": 9,
+    "confidence": 0.96,
+    "bbox": [
+      176,
+      764,
+      565,
+      58
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 2,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 2,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 282
+  },
+  {
+    "text": "Counseling, support groups. Elevation, exercise, arm",
+    "page_number": 9,
+    "confidence": 0.9616666666666667,
+    "bbox": [
+      415,
+      848,
+      403,
+      146
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 3,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 2,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 283
+  },
+  {
+    "text": "infection risk, skin diet, manage side Adherence, regular screening.",
+    "page_number": 9,
+    "confidence": 0.96,
+    "bbox": [
+      308,
+      1016,
+      391,
+      147
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 4,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 3,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 284
+  },
+  {
+    "text": "reconstruction. SHORT NOTE: Information, prosthesis, referrals",
+    "page_number": 9,
+    "confidence": 0.96,
+    "bbox": [
+      137,
+      1184,
+      910,
+      58
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 5,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 2,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 285
+  },
+  {
+    "text": "for counseling or NOTE: (Content for (Content for short for short note",
+    "page_number": 9,
+    "confidence": 0.9616666666666667,
+    "bbox": [
+      139,
+      1184,
+      756,
+      95
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 6,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 286
+  },
+  {
+    "text": "to be provided section to be",
+    "page_number": 9,
+    "confidence": 0.9633333333333333,
+    "bbox": [
+      367,
+      1258,
+      220,
+      20
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 7,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 2,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "denoised_--oem 3 --psm 4"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 287
+  },
+  {
+    "text": "If you need short note section completed, please let any content summarised,",
+    "page_number": 10,
+    "confidence": 0.9583333333333333,
+    "bbox": [
+      138,
+      68,
+      922,
+      48
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 0,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 4,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "denoised_--oem 3 --psm 6",
+      "basic_gray_--oem 3 --psm 6",
+      "enhanced_contrast_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 288
+  },
+  {
+    "text": "expanded, or the me know!",
+    "page_number": 10,
+    "confidence": 0.96,
+    "bbox": [
+      168,
+      69,
+      508,
+      47
+    ],
+    "upload_id": "081bcde0",
+    "chunk_id": 1,
+    "chunk_type": "semantic_boundary",
+    "source_blocks": 2,
+    "method": "semantic_chunking",
+    "engines_used": [
+      "basic_gray_--oem 3 --psm 6"
+    ],
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "user_id": "c045e690a4af",
+    "added_at": "2025-08-07 14:18:33.198856",
+    "vector_id": 289
   }
 ]
