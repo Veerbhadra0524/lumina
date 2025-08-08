@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Lumina RAG</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/modern-style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chat-history.css') }}">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span>🧠 Lumina RAG</span>
+            </div>
+            <div class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/upload" class="nav-link">Upload</a>
+                {% if user %}
+                    <span class="nav-link" id="user-name">{{ user.name or user.email }}</span>
+                    <button id="logout-btn" class="btn btn-secondary">Logout</button>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+
+    <!-- Chat Layout -->
+    <div class="chat-layout">
+        <!-- Chat History Sidebar -->
+        <div class="chat-sidebar">
+            <div class="sidebar-header">
+                <button id="new-chat-btn" class="btn btn-primary btn-full">
+                    ➕ New Chat
+                </button>
+            </div>
+            
+            <div class="sidebar-content">
+                <div id="chat-history" class="chat-history-list">
+                    <!-- Conversations will be loaded here -->
+                </div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <a href="/upload" class="btn btn-secondary btn-full">
+                    📄 Upload Documents
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Chat Area -->
+        <div class="chat-main">
+            <div class="chat-header">
+                <h3 id="chat-title">New Conversation</h3>
+                <div class="chat-actions">
+                    <button id="delete-chat" class="btn-icon" title="Delete Conversation">
+                        🗑️
+                    </button>
+                </div>
+            </div>
+            
+            <div class="chat-messages" id="chat-messages">
+                <div class="welcome-message">
+                    <div class="ai-avatar">🧠</div>
+                    <div class="message-content">
+                        <h4>Welcome to Lumina RAG!</h4>
+                        <p>I'm your personal AI assistant. Upload some documents and start asking questions about them.</p>
+                        <div class="quick-actions">
+                            <button class="quick-action" data-action="upload">
+                                📄 Upload Documents
+                            </button>
+                            <button class="quick-action" data-action="example">
+                                💡 Try Example
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-input-container">
+                <div class="input-wrapper">
+                    <textarea id="chat-input" placeholder="Type your message here..." rows="1"></textarea>
+                    <button id="send-btn" class="send-btn" disabled>
+                        ➤
+                    </button>
+                </div>
+                <div class="input-hints">
+                    <span>Press Enter to send, Shift+Enter for new line</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script type="module" src="{{ url_for('static', filename='js/firebase-config.js') }}"></script>
+    
+    <!-- JavaScript Files -->
+    <script src="{{ url_for('static', filename='js/navigation.js') }}"></script>
+    <script type="module" src="{{ url_for('static', filename='js/auth.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/modern-chat.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/history-manager.js') }}"></script>
+</body>
+</html>

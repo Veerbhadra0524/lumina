@@ -26,7 +26,7 @@ class TextExtractor:
             try:
                 from sentence_transformers import SentenceTransformer
                 self.chunking_model = SentenceTransformer('all-MiniLM-L6-v2')
-                logger.info("✅ Chunking model loaded on demand")
+                logger.info(f"SUCCESS: Chunking model loaded on demand")
             except Exception as e:
                 logger.warning(f"Chunking model loading failed: {str(e)}")
                 self.chunking_model = False  # Mark as failed
@@ -43,7 +43,7 @@ class TextExtractor:
             with open(metadata_path, 'r', encoding='utf-8') as f:
                 metadata = json.load(f)
             
-            logger.info(f"📋 Processing text extraction for upload {upload_id}")
+            logger.info(f"PROCESSING: Processing text extraction for upload {upload_id}")
             
             text_blocks = []
             pages = metadata.get('pages', [])
@@ -60,16 +60,16 @@ class TextExtractor:
                         break
                 
                 if not image_path:
-                    logger.warning(f"⚠️ No path found in page {i}, skipping")
+                    logger.warning(f"WARNING: No path found in page {i}, skipping")
                     continue
                 
                 page_number = page.get('page_number', page.get('slide_number', i))
                 
                 if not os.path.exists(image_path):
-                    logger.warning(f"⚠️ Image file not found: {image_path}")
+                    logger.warning(f"WARNING: Image file not found: {image_path}")
                     continue
                 
-                logger.info(f"🔍 Extracting text from page {page_number}: {image_path}")
+                logger.info(f"EXTRACTING: Extracting text from page {page_number}: {image_path}")
                 
                 # Phase 2 Fix: Use optimized OCR
                 page_result = self._extract_text_with_optimized_ocr(image_path, page_number)
@@ -77,9 +77,9 @@ class TextExtractor:
                 if page_result['success']:
                     extracted_blocks = page_result['text_blocks']
                     text_blocks.extend(extracted_blocks)
-                    logger.info(f"✅ Extracted {len(extracted_blocks)} text blocks from page {page_number}")
+                    logger.info(f"SUCCESS: Extracted {len(extracted_blocks)} text blocks from page {page_number}")
                 else:
-                    logger.warning(f"⚠️ OCR failed for page {page_number}: {page_result.get('error', 'Unknown error')}")
+                    logger.warning(f"WARNING: OCR failed for page {page_number}: {page_result.get('error', 'Unknown error')}")
             
             # Phase 2 Fix: Only apply chunking if explicitly enabled AND beneficial
             original_count = len(text_blocks)
@@ -103,7 +103,7 @@ class TextExtractor:
             with open(result_path, 'w', encoding='utf-8') as f:
                 json.dump(text_result, f, indent=2, ensure_ascii=False)
             
-            logger.info(f"🎉 Text extraction completed: {len(text_blocks)} total blocks extracted")
+            logger.info(f"COMPLETED: Text extraction completed: {len(text_blocks)} total blocks extracted")
             
             return {
                 'success': True,
@@ -184,7 +184,7 @@ class TextExtractor:
                 # FIXED: Pass the actual image, not None
                 enhanced_versions = OCROptimizer.enhance_image_for_ocr_direct(image)
                 if enhanced_versions and len(enhanced_versions) > 1:
-                    logger.info("✅ Using OCR optimizer enhanced versions")
+                    logger.info(f"SUCCESS: Using OCR optimizer enhanced versions")
                     return enhanced_versions
             except (ImportError, Exception) as e:
                 logger.debug(f"OCR optimizer not available: {e}")

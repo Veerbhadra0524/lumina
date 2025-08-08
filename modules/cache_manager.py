@@ -17,9 +17,9 @@ class CacheManager:
                 size_limit=1024 * 1024 * 1024,  # 1GB limit
                 timeout=60
             )
-            logger.info("✅ Cache manager initialized")
+            logger.info(f"SUCCESS: Cache manager initialized")
         except Exception as e:
-            logger.error(f"❌ Cache manager initialization failed: {str(e)}")
+            logger.error(f"ERROR: Cache manager initialization failed: {str(e)}")
             self.cache = None
     
     def get(self, key: str) -> Optional[Any]:

@@ -1,0 +1,721 @@
+{
+  "analysis_date": "2025-08-08T09:33:59.375924",
+  "directory_structure": {
+    "data": {
+      "files": [],
+      "folders": {
+        "app_cache": {
+          "files": [
+            {
+              "name": "cache.db",
+              "size_mb": 0.03
+            }
+          ],
+          "folders": {},
+          "total_size_mb": 0.03
+        },
+        "uploads": {
+          "files": [],
+          "folders": {
+            "19d803be": {
+              "truncated": true
+            },
+            "417f163f": {
+              "truncated": true
+            },
+            "67ea5c06": {
+              "truncated": true
+            },
+            "897522a9": {
+              "truncated": true
+            },
+            "a0e2384d": {
+              "truncated": true
+            },
+            "de5efd16": {
+              "truncated": true
+            },
+            "ff40a3bb": {
+              "truncated": true
+            }
+          },
+          "total_size_mb": 0
+        },
+        "vector_store": {
+          "files": [
+            {
+              "name": "faiss.index",
+              "size_mb": 3.46
+            },
+            {
+              "name": "metadata.json",
+              "size_mb": 0.72
+            }
+          ],
+          "folders": {
+            "02d5e6289c9f": {
+              "truncated": true
+            },
+            "530587af35af": {
+              "truncated": true
+            },
+            "95779b6d80bc": {
+              "truncated": true
+            },
+            "c045e690a4af": {
+              "truncated": true
+            },
+            "embedding_cache": {
+              "truncated": true
+            },
+            "La7UkeeaiIPmexCtHeIk7DCmKRm1": {
+              "truncated": true
+            },
+            "LKvWw9PmVSO24ysrM51ggJN3tNw2": {
+              "truncated": true
+            }
+          },
+          "total_size_mb": 4.18
+        }
+      },
+      "total_size_mb": 4.21
+    },
+    "modules": {
+      "files": [
+        {
+          "name": "auth_middleware.py",
+          "size_mb": 0.0
+        },
+        {
+          "name": "cache_manager.py",
+          "size_mb": 0.0
+        },
+        {
+          "name": "chat_history.py",
+          "size_mb": 0.01
+        },
+        {
+          "name": "document_processor.py",
+          "size_mb": 0.01
+        },
+        {
+          "name": "embedder.py",
+          "size_mb": 0.01
+        },
+        {
+          "name": "file_cleanup.py",
+          "size_mb": 0.0
+        },
+        {
+          "name": "file_manager.py",
+          "size_mb": 0.01
+        },
+        {
+          "name": "firebase_manager.py",
+          "size_mb": 0.01
+        },
+        {
+          "name": "generator.py",
+          "size_mb": 0.02
+        },
+        {
+          "name": "monitoring.py",
+          "size_mb": 0.0
+        },
+        {
+          "name": "ocr_optimizer.py",
+          "size_mb": 0.0
+        },
+        {
+          "name": "retriever.py",
+          "size_mb": 0.01
+        },
+        {
+          "name": "text_extractor.py",
+          "size_mb": 0.02
+        },
+        {
+          "name": "vector_store.py",
+          "size_mb": 0.01
+        },
+        {
+          "name": "__init__.py",
+          "size_mb": 0.0
+        }
+      ],
+      "folders": {
+        "__pycache__": {
+          "files": [
+            {
+              "name": "auth_middleware.cpython-310.pyc",
+              "size_mb": 0.0
+            },
+            {
+              "name": "cache_manager.cpython-310.pyc",
+              "size_mb": 0.0
+            },
+            {
+              "name": "chat_history.cpython-310.pyc",
+              "size_mb": 0.01
+            },
+            {
+              "name": "document_manager.cpython-310.pyc",
+              "size_mb": 0.01
+            },
+            {
+              "name": "document_processor.cpython-310.pyc",
+              "size_mb": 0.01
+            },
+            {
+              "name": "embedder.cpython-310.pyc",
+              "size_mb": 0.01
+            },
+            {
+              "name": "firebase_manager.cpython-310.pyc",
+              "size_mb": 0.01
+            },
+            {
+              "name": "generator.cpython-310.pyc",
+              "size_mb": 0.01
+            },
+            {
+              "name": "monitoring.cpython-310.pyc",
+              "size_mb": 0.0
+            },
+            {
+              "name": "ocr_optimizer.cpython-310.pyc",
+              "size_mb": 0.0
+            },
+            {
+              "name": "retriever.cpython-310.pyc",
+              "size_mb": 0.01
+            },
+            {
+              "name": "text_extractor.cpython-310.pyc",
+              "size_mb": 0.01
+            },
+            {
+              "name": "vector_store.cpython-310.pyc",
+              "size_mb": 0.0
+            },
+            {
+              "name": "__init__.cpython-310.pyc",
+              "size_mb": 0.0
+            }
+          ],
+          "folders": {},
+          "total_size_mb": 0.08
+        }
+      },
+      "total_size_mb": 0.19
+    },
+    "templates": {
+      "files": [
+        {
+          "name": "analytics.html",
+          "size_mb": 0.0
+        },
+        {
+          "name": "base.html",
+          "size_mb": 0.0
+        },
+        {
+          "name": "chat.html",
+          "size_mb": 0.0
+        },
+        {
+          "name": "index.html",
+          "size_mb": 0.0
+        },
+        {
+          "name": "landing.html",
+          "size_mb": 0.0
+        },
+        {
+          "name": "login.html",
+          "size_mb": 0.0
+        },
+        {
+          "name": "upload.html",
+          "size_mb": 0.0
+        }
+      ],
+      "folders": {},
+      "total_size_mb": 0.0
+    },
+    "static": {
+      "files": [],
+      "folders": {
+        "css": {
+          "files": [
+            {
+              "name": "chat-history.css",
+              "size_mb": 0.01
+            },
+            {
+              "name": "modern-style.css",
+              "size_mb": 0.01
+            },
+            {
+              "name": "style.css",
+              "size_mb": 0.01
+            }
+          ],
+          "folders": {},
+          "total_size_mb": 0.03
+        },
+        "js": {
+          "files": [
+            {
+              "name": "auth.js",
+              "size_mb": 0.01
+            },
+            {
+              "name": "firebase-config.js",
+              "size_mb": 0.0
+            },
+            {
+              "name": "history-manager.js",
+              "size_mb": 0.01
+            },
+            {
+              "name": "main.js",
+              "size_mb": 0.0
+            },
+            {
+              "name": "modern-chat.js",
+              "size_mb": 0.01
+            },
+            {
+              "name": "navigation.js",
+              "size_mb": 0.0
+            },
+            {
+              "name": "upload.js",
+              "size_mb": 0.0
+            }
+          ],
+          "folders": {},
+          "total_size_mb": 0.03
+        }
+      },
+      "total_size_mb": 0.06
+    },
+    "logs": {
+      "files": [
+        {
+          "name": "app.log",
+          "size_mb": 0.02
+        }
+      ],
+      "folders": {},
+      "total_size_mb": 0.02
+    },
+    "blueprints": {
+      "files": [
+        {
+          "name": "api_routes.py",
+          "size_mb": 0.0
+        },
+        {
+          "name": "auth_routes.py",
+          "size_mb": 0.0
+        },
+        {
+          "name": "chat_routes.py",
+          "size_mb": 0.01
+        },
+        {
+          "name": "main_routes.py",
+          "size_mb": 0.0
+        },
+        {
+          "name": "upload_routes.py",
+          "size_mb": 0.0
+        },
+        {
+          "name": "__init__.py",
+          "size_mb": 0.0
+        }
+      ],
+      "folders": {
+        "__pycache__": {
+          "files": [
+            {
+              "name": "api_routes.cpython-310.pyc",
+              "size_mb": 0.0
+            },
+            {
+              "name": "auth_routes.cpython-310.pyc",
+              "size_mb": 0.0
+            },
+            {
+              "name": "chat_routes.cpython-310.pyc",
+              "size_mb": 0.0
+            },
+            {
+              "name": "main_routes.cpython-310.pyc",
+              "size_mb": 0.0
+            },
+            {
+              "name": "upload_routes.cpython-310.pyc",
+              "size_mb": 0.0
+            },
+            {
+              "name": "__init__.cpython-310.pyc",
+              "size_mb": 0.0
+            }
+          ],
+          "folders": {},
+          "total_size_mb": 0.0
+        }
+      },
+      "total_size_mb": 0.01
+    },
+    "lum_env": {
+      "files": [
+        {
+          "name": "pyvenv.cfg",
+          "size_mb": 0.0
+        }
+      ],
+      "folders": {
+        "Include": {
+          "files": [],
+          "folders": {},
+          "total_size_mb": 0
+        },
+        "Lib": {
+          "files": [],
+          "folders": {
+            "site-packages": {
+              "truncated": true
+            }
+          },
+          "total_size_mb": 0
+        },
+        "Library": {
+          "files": [],
+          "folders": {
+            "bin": {
+              "truncated": true
+            },
+            "lib": {
+              "truncated": true
+            },
+            "share": {
+              "truncated": true
+            }
+          },
+          "total_size_mb": 0
+        },
+        "Scripts": {
+          "files": [
+            {
+              "name": "activate",
+              "size_mb": 0.0
+            },
+            {
+              "name": "activate.bat",
+              "size_mb": 0.0
+            },
+            {
+              "name": "Activate.ps1",
+              "size_mb": 0.02
+            },
+            {
+              "name": "celery.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "convert-caffe2-to-onnx.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "convert-onnx-to-caffe2.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "coverage-3.10.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "coverage.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "coverage3.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "deactivate.bat",
+              "size_mb": 0.0
+            },
+            {
+              "name": "distro.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "doesitcache.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "dotenv.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "easyocr.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "f2py.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "fixup_firestore_admin_v1_keywords.py",
+              "size_mb": 0.01
+            },
+            {
+              "name": "fixup_firestore_v1_keywords.py",
+              "size_mb": 0.01
+            },
+            {
+              "name": "flask.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "gunicorn.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "httpx.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "huggingface-cli.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "imageio_download_bin.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "imageio_remove_bin.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "isympy.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "lsm2bin.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "markdown-it.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "mprof.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "ninja.exe",
+              "size_mb": 0.54
+            },
+            {
+              "name": "nltk.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "normalizer.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "openai.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pip.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pip3.10.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pip3.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "py-spy.exe",
+              "size_mb": 3.69
+            },
+            {
+              "name": "py.test.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pybidi.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pygmentize.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pyrsa-decrypt.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pyrsa-encrypt.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pyrsa-keygen.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pyrsa-priv2pub.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pyrsa-sign.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pyrsa-verify.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pytesseract.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "pytest.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "python.exe",
+              "size_mb": 0.23
+            },
+            {
+              "name": "pythonw.exe",
+              "size_mb": 0.22
+            },
+            {
+              "name": "tiff2fsspec.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "tiffcomment.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "tifffile.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "torchrun.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "tqdm.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "transformers-cli.exe",
+              "size_mb": 0.1
+            },
+            {
+              "name": "vba_extract.py",
+              "size_mb": 0.0
+            },
+            {
+              "name": "websockets.exe",
+              "size_mb": 0.1
+            }
+          ],
+          "folders": {
+            "__pycache__": {
+              "truncated": true
+            }
+          },
+          "total_size_mb": 9.22
+        },
+        "share": {
+          "files": [],
+          "folders": {
+            "man": {
+              "truncated": true
+            }
+          },
+          "total_size_mb": 0
+        }
+      },
+      "total_size_mb": 9.22
+    },
+    "root_files": [
+      ".coverage",
+      ".env",
+      ".gitignore",
+      "app.py",
+      "config.py",
+      "firebase-service-account.json",
+      "README.md",
+      "requirements-dev.txt",
+      "requirements.txt",
+      "run_tests.py",
+      "test_compatibility.py",
+      "zzz-notebook.ipynb"
+    ]
+  },
+  "safe_to_delete": {
+    "temporary_folders": [],
+    "log_files": [],
+    "cache_files": [],
+    "upload_folders": [
+      {
+        "path": "data/uploads\\19d803be",
+        "size_mb": 2.1,
+        "reason": "Uploaded files can be cleaned after processing"
+      },
+      {
+        "path": "data/uploads\\417f163f",
+        "size_mb": 0.38,
+        "reason": "Uploaded files can be cleaned after processing"
+      },
+      {
+        "path": "data/uploads\\67ea5c06",
+        "size_mb": 1.63,
+        "reason": "Uploaded files can be cleaned after processing"
+      },
+      {
+        "path": "data/uploads\\897522a9",
+        "size_mb": 0.38,
+        "reason": "Uploaded files can be cleaned after processing"
+      },
+      {
+        "path": "data/uploads\\a0e2384d",
+        "size_mb": 24.25,
+        "reason": "Uploaded files can be cleaned after processing"
+      },
+      {
+        "path": "data/uploads\\de5efd16",
+        "size_mb": 0.38,
+        "reason": "Uploaded files can be cleaned after processing"
+      },
+      {
+        "path": "data/uploads\\ff40a3bb",
+        "size_mb": 0.38,
+        "reason": "Uploaded files can be cleaned after processing"
+      }
+    ]
+  },
+  "recommendations": {
+    "cleanup_uploads": "data/uploads contains processed files that can be cleaned",
+    "optimize_vector_store": "data/vector_store should be user-separated",
+    "manage_logs": "Consider rotating log files in logs/",
+    "cache_management": "data/vector_store/embedding_cache can grow large"
+  }
+}

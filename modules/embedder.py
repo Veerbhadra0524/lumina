@@ -45,10 +45,10 @@ class Embedder:  # ✅ FIXED: Keep original class name
             # Model optimizations
             self.model.eval()  # Set to evaluation mode
             
-            logger.info("✅ Embedding model initialized successfully")
+            logger.info(f"SUCCESS: Embedding model initialized successfully")
             
         except Exception as e:
-            logger.error(f"❌ Failed to initialize embedding model: {str(e)}")
+            logger.error(f"ERROR: Failed to initialize embedding model: {str(e)}")
             raise RuntimeError(f"Embedding model initialization failed: {str(e)}")
     
     def _setup_caching(self):
@@ -60,10 +60,10 @@ class Embedder:  # ✅ FIXED: Keep original class name
                 size_limit=512 * 1024 * 1024,  # 512MB cache limit
                 timeout=30
             )
-            logger.info(f"✅ Embedding cache initialized: {cache_dir}")
+            logger.info(f"SUCCESS: Embedding cache initialized: {cache_dir}")
             
         except Exception as e:
-            logger.error(f"❌ Cache initialization failed: {str(e)}")
+            logger.error(f"ERROR: Cache initialization failed: {str(e)}")
             self.cache = None
     
     def create_embeddings(self, text_blocks: List[Dict[str, Any]]) -> Dict[str, Any]:

@@ -141,7 +141,13 @@ class FirebaseManager:
             
         try:
             filename = doc_data.get('filename', 'unknown')
-            text_count = len(doc_data.get('text_blocks', []))
+            
+            # FIX: Handle text_blocks properly
+            text_blocks = doc_data.get('text_blocks', [])
+            if isinstance(text_blocks, int):
+                text_count = text_blocks
+            else:
+                text_count = len(text_blocks) if text_blocks else 0
             
             logger.info(f"FIREBASE: Storing document for user {user_id}: {filename} ({text_count} text blocks)")
             
@@ -151,10 +157,11 @@ class FirebaseManager:
                 'text_blocks_count': text_count,
                 'upload_time': datetime.now(),
                 'file_type': doc_data.get('file_type', 'unknown'),
-                'text_summary': self._create_text_summary(doc_data.get('text_blocks', []))
+                'text_summary': self._create_text_summary(text_blocks) if not isinstance(text_blocks, int) else "Processed text content"
             })
             
             # Update user document count
+            from firebase_admin import firestore
             user_ref = self.db.collection('users').document(user_id)
             user_ref.update({'document_count': firestore.Increment(1)})
             
@@ -165,6 +172,10 @@ class FirebaseManager:
         except Exception as e:
             logger.error(f"FIREBASE ERROR: Failed to store document: {str(e)}")
             return ""
+
+        
+    
+    
     
     def _create_text_summary(self, text_blocks: List[Dict]) -> str:
         """Create summary for storage"""

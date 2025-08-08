@@ -34,12 +34,12 @@ class Generator:
                 # Initialize vision model  
                 self.vision_model = genai.GenerativeModel('gemini-1.5-flash')
                 
-                logger.info("✅ Gemini API initialized successfully")
+                logger.info(f"SUCCESS: Gemini API initialized successfully")
             else:
-                logger.warning("⚠️ No Gemini API key found")
+                logger.warning(f"WARNING: No Gemini API key found")
                 
         except Exception as e:
-            logger.error(f"❌ Gemini initialization failed: {e}")
+            logger.error(f"ERROR: Gemini initialization failed: {e}")
     
     def generate_answer(self, query: str, documents: List[Dict[str, Any]]) -> Dict[str, Any]:
         """Generate answer with enhanced context understanding"""

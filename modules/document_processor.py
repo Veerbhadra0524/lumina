@@ -85,7 +85,7 @@ class DocumentProcessor:
                 with open(metadata_path, 'w', encoding='utf-8') as f:
                     json.dump(metadata, f, indent=2, ensure_ascii=False)
                 
-                logger.info(f"✅ Document processed: {filename} -> {len(result['pages'])} pages")
+                logger.info(f"SUCCESS: Document processed: {filename} -> {len(result['pages'])} pages")
             
             return result
             

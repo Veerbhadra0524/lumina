@@ -45,7 +45,7 @@ class OCROptimizer:
             morph = cv2.morphologyEx(enhanced, cv2.MORPH_CLOSE, kernel)
             enhanced_versions['morphological'] = cv2.cvtColor(morph, cv2.COLOR_GRAY2BGR)
             
-            logger.info(f"✅ OCR Optimizer created {len(enhanced_versions)} enhanced versions")
+            logger.info(f"SUCCESS: OCR Optimizer created {len(enhanced_versions)} enhanced versions")
             return enhanced_versions
             
         except Exception as e:
