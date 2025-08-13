@@ -43,3 +43,11 @@ venv/
 
 firebase-service-account.json
 data/vector_store/
+
+directory_analysis.json
+.coverage
+lrag/
+data/app_cache/
+
+logs/
+.pytest_cache/

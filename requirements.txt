@@ -20,9 +20,9 @@ opencv-python==4.8.1.78
 
 # FIXED: Compatible ML stack
 torch==2.3.1
-transformers==4.35.2
-sentence-transformers==2.2.2
-safetensors==0.4.0
+transformers==4.55.0
+sentence-transformers==5.1.0
+safetensors==0.6.2
 
 # Phase 2: Hybrid search
 rank-bm25==0.2.2
@@ -58,12 +58,11 @@ pytest-cov==4.1.0
 google-generativeai==0.3.2
 
 # Rate limiting
-flask-limiter==3.5.0
+Flask-Limiter==3.5.0
 
 # Performance profiling
 py-spy==0.3.14
 memory-profiler==0.61.0
-
 
 # Firebase Integration (NEW)
 firebase-admin==6.2.0
