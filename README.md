@@ -110,3 +110,6 @@ MIT License
 
 
 Do you want me to also add a **system architecture diagram (SVG)** in this README (like a flow chart of upload → OCR → embeddings → FAISS → LLM → response)? That makes it even more recruiter-friendly.
+
+---
+### **Adarsh Verma**
