@@ -1,111 +1,112 @@
-Here’s your README rewritten so it renders cleanly on GitHub with proper Markdown formatting, code fences for the directory tree, and clear sectioning:
+# 🌌 Lumina RAG
 
-````markdown
-# Lumina RAG - Minimal Multimodal RAG System
+**AI-Powered Retrieval-Augmented Generation for Documents**
 
-A streamlined **Retrieval-Augmented Generation** system for chatting with your documents.
-
-## 🚀 Features
-
-- 📄 **Document Processing**: PDF, PowerPoint, and image support  
-- 🔍 **OCR Integration**: Extract text using Tesseract  
-- 🧠 **Smart Embeddings**: Sentence transformers for semantic search  
-- 💾 **Vector Storage**: FAISS for fast similarity search  
-- 🌐 **Flexible Generation**: Support for both cloud and local models  
-- 🎨 **Modern UI**: Clean web interface for document upload and chat  
+Transform static documents (PDFs, PPTX, images) into an **interactive knowledge base** with natural language querying. Lumina RAG combines **OCR, vector embeddings, hybrid search, and multi-modal LLMs** to deliver contextual answers with source citations.
 
 ---
 
-## 📂 Project Structure
+## 🚀 Features
 
-```plaintext
-lumina-rag/
-│
-├── 📁 modules/                    # Core processing modules
-│   ├── document_processor.py
-│   ├── text_extractor.py
-│   ├── embedder.py
-│   ├── vector_store.py
-│   ├── retriever.py
-│   ├── generator.py
-│   ├── monitoring.py
-│   ├── cache_manager.py
-│   └── ocr_optimizer.py
-│
-│
-├── 📁 frontend/
-│   ├── 📁 static/
-│   │   ├── 📁 css/
-│   │   │   ├── style.css
-│   │   │   └── dashboard.css
-│   │   ├── 📁 js/
-│   │   │   ├── main.js
-│   │   │   ├── dashboard.js
-│   │   │   ├── auth.js
-│   │   │   └── websockets.js
-│   │   └── 📁 images/
-│   └── 📁 templates/
-│       ├── base.html
-│       ├── index.html
-│       ├── upload.html
-│       ├── dashboard.html
-│       └── login.html
-│       ├── analytics.html
-│       └── chat.html
-│
-├── 📁 scripts/
-│   ├── performance_test.py
-│
-├── 📁 config/
-│   ├── settings.py
-│   ├── redis_config.py
-│   ├── k8s_config.py
-│   └── security_config.py
-│
-├── 📁 data/
-│   ├── 📁 uploads/
-│   ├── 📁 vector_store/
-│   ├── 📁 app_cache/
-│
-├── 📁 docs/
-│   ├── 📁 api/
-│   │   ├── openapi.yaml
-│   │   └── postman_collection.json
-│   ├── 📁 deployment/
-│   │   ├── kubernetes_guide.md
-│   │   └── redis_setup.md
-│   └── 📁 development/
-│       ├── contributing.md
-│       └── testing.md
-│
-│
-├── app.py
-└── config.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
-````
+* 📄 **Multi-format Support**: PDF, PPTX, PNG, JPG
+* 🔍 **Hybrid Semantic Search**: FAISS vector search + keyword matching
+* 🧠 **AI-Powered Q\&A**: Google Gemini (Vision) + local LLM fallback
+* ✨ **Advanced OCR**: Tesseract with preprocessing (denoising, deskewing, grayscale)
+* 💬 **Real-time Chat UI**: Responsive, modern web interface with history & typing indicators
+* 🔐 **Secure Authentication**: Firebase OAuth (Google, GitHub, Email)
+* 🗑️ **Data Privacy**: User-isolated vector stores + auto file cleanup
+* 📊 **Confidence Scoring**: Every response comes with relevance & source attribution
+
+---
+
+## 🏗️ Architecture
+
+**Layered, cloud-native design for scalability & security**
+
+* **Presentation Layer** → Chat interface, upload UI, auth pages
+* **API Layer (Flask)** → Auth, chat, upload & health endpoints
+* **Business Logic Layer** → OCR, embeddings, hybrid retrieval, AI generation
+* **Data Layer** → FAISS vector DB + Firebase Firestore + caching
+
+🔄 **Data Flow**:
+Upload → OCR & preprocessing → Chunking → Embeddings → FAISS → Query → Hybrid retrieval → AI response (Gemini / local LLM) → Answer + citations
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Backend**: Python, Flask
-* **Vector DB**: FAISS
-* **Embeddings**: Sentence Transformers
-* **OCR**: Tesseract
-* **Frontend**: HTML, CSS, JavaScript
-* **Deployment**: Docker, Kubernetes, Terraform
+**Frontend**: HTML5/CSS3, JavaScript (ES6+), Firebase SDK, responsive UI
+**Backend**: Python 3.9, Flask 2.x, Gunicorn/uWSGI, Docker
+**Core AI/ML**: Tesseract OCR, SentenceTransformers (MiniLM), FAISS, OpenCV
+**LLM Layer**: Google Gemini API (Vision), Hugging Face Transformers, PyTorch, Ollama
+**Infra**: Firebase Auth + Firestore, DiskCache, GPU acceleration (CUDA)
+
+---
+
+## ⚙️ Installation
+
+```bash
+# Clone repo
+git clone https://github.com/adarshv0524/lumina-rag.git
+cd lumina-rag
+
+# Create env & install dependencies
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Environment Variables (`.env`)
+
+```ini
+# Firebase
+FIREBASE_PROJECT_ID=your-project-id
+FIREBASE_API_KEY=your-api-key
+
+# Gemini API
+GEMINI_API_KEY=your-gemini-api-key
+
+# Flask
+FLASK_ENV=production
+UPLOAD_FOLDER=data/uploads
+VECTOR_STORE_PATH=data/vectors
+MAX_CONTENT_LENGTH=16777216
+```
+
+### Run
+
+```bash
+flask run
+```
+
+---
+
+## 📖 Example Usage
+
+```text
+Q: "What are the main findings in this research paper?"
+A: Summarized results with page citations.
+
+Q: "Show me the financial performance metrics from the quarterly report."
+A: Extracted tables & key metrics with references.
+```
+
+---
+
+
+## 🤝 Contributing
+
+1. Fork & clone the repo
+2. Create a feature branch
+3. Implement & test your changes
+4. Submit a PR 🚀
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+MIT License
 
-```
 
-If you want, I can also add **badges** (build status, license, Python version) and a **quick start section** so your README looks like a polished open-source project.  
-Do you want me to do that next?
-```
+
+Do you want me to also add a **system architecture diagram (SVG)** in this README (like a flow chart of upload → OCR → embeddings → FAISS → LLM → response)? That makes it even more recruiter-friendly.
